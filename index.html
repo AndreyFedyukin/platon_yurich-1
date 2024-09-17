@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+  <title>Platon Yurich</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <div class="body-wrapper">
+    <header class="header">
+      <div class="header__wrapper">
+
+        <div class="header__first">
+          <div class="container">
+            <div class="header__first-wrap">
+
+              <button id="burger" class="burger header__burger" aria-label="Burger menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+
+              <div class="empty-block"></div>
+
+              <a href="index.html" class="logo header__logo" aria-label="Home">Platon&nbsp;Yurich</a>
+
+              <div class="switch-button">
+                <input class="switch-button-checkbox" type="checkbox">
+                <label class="switch-button-label">
+                  <span class="switch-button-label-span">En</span>
+                </label>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="header__menu js-submenu">
+          <div class="container">
+
+            <nav id="menu" class="menu" aria-label="Bar">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="about.html" aria-label="About">About</a>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="paintings.html" aria-label="Paintings">Paintings</a>
+                </li>
+
+                <li class="menu__item menu__storage">
+                  <details class="menu__details">
+                    <summary class="menu__link menu__details-title">
+                      Prints<span class="storage-arrow"></span>
+                    </summary>
+                    <ul class="menu__submenu menu__details-content">
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link" href="surrealism.html"
+                          aria-label="Surrealism">Surrealism</a>
+                      </li>
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link" href="plug.html" aria-label="Reportage">Reportage</a>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+
+                <li class="menu__item menu__storage">
+                  <details class="menu__details">
+                    <summary class="menu__link menu__details-title">
+                      Forms<span class="storage-arrow"></span>
+                    </summary>
+                    <ul class="menu__submenu menu__details-content">
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link" href="sculpture.html"
+                          aria-label="Sculpture">Sculpture</a>
+                      </li>
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link" href="plug.html" aria-label="Furniture">Furniture</a>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="news.html" aria-label="News">News</a>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="contact.html" aria-label="Contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__wrapper">
+
+        <!-- section content ************************* -->
+        <section aria-label="Content">
+
+          <div class="content">
+            <picture class="content__picture">
+              <source srcset="img/content.avif" type="image/avif">
+              <source srcset="img/content.webp.webp" type="image/webp">
+              <img class="content__img" src="img/content.jpg" width="1920" height="1400" alt="Content"
+                aria-label="Content">
+            </picture>
+
+            <!-- <h1 class="content__title">Platon&nbsp;Yurich</h1> -->
+
+          </div>
+        </section>
+
+        <!-- section about ************************* -->
+        <section class="section" aria-label="About">
+          <div class="container">
+            <div class="about">
+
+
+              <h2 class="title about__title">
+                About me
+              </h2>
+
+              <p class="about__quote">
+                «Я наблюдаю за своим творчество, как за спортивными соревнованиями. Только там я соревнуюсь один
+                против всех»
+              </p>
+
+              <div class="about__wrapper">
+
+                <div class="about__video-wrap">
+                  <video class="about__video js-video-open" width="800" preload="auto" autoplay loop muted playsinline
+                    aria-label="Video">
+                    <source src="video/platon.webm" type="video/webm">
+                    <source src="video/platon.mp4" type="video/mp4">
+                    Your browser doesn't support HTML5 video tag.
+                  </video>
+
+                  <div class="modal js-modal-video" data-modal-video="modal-video">
+                    <div class="modal__box">
+                      <button class="modal__close-btn js-close-btn" data-close-video="close-btn-video"
+                        aria-label="Close video">
+                        close
+                      </button>
+
+                      <video class="modal__video my-video" width="800" preload="auto" loop playsinline
+                        aria-label="Video">
+                        <source src="video/platon.webm" type="video/webm">
+                        <source src="video/platon.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+
+                  <span class="reference about__reference">
+                    2024 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </span>
+                </div>
+
+                <div class="about__text-wrap">
+                  <p class="about__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab voluptatem, adipisci culpa
+                    consequatur nulla quae assumenda quidem aperiam architecto repellat mollitia accusamus distinctio
+                    sequi vero odit vel reiciendis deleniti nisi itaque quaerat doloremque amet. Error assumenda iusto
+                    ullam atque.
+                  </p>
+
+                  <button class="btn about__text-btn">
+                    Learn more&nbsp;&rarr;
+                  </button>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+        </section>
+
+        <hr>
+
+        <!-- section news ************************* -->
+        <section class="section" aria-label="News">
+          <div class="container">
+            <div class="news">
+
+              <h2 class="title news__title">News</h2>
+
+              <div class="news__wrapper">
+
+                <!-- первая новость -->
+                <div class="news__spam spam-1">
+                  <div class="news__box-img">
+                    <picture class="news__picture">
+                      <source srcset="img/news-1.avif" type="image/avif">
+                      <source srcset="img/news-1.webp" type="image/webp">
+                      <img class="news__img" src="img/news-1.jpg" width="100" alt="paintings" aria-label="paintings">
+                    </picture>
+                  </div>
+
+                  <div class="news__box-info">
+                    <h3 class="news__subtitle">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </h3>
+
+                    <p class="news__date">
+                      20.02.2024 - 20.03.2024
+                    </p>
+
+                    <p class="news__paragraph">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat unde dignissimos voluptatem non
+                      quia tenetur cumque iusto nam deserunt culpa?
+                    </p>
+
+                    <button class="btn news__btn">
+                      Learn more&nbsp;&rarr;
+                    </button>
+                  </div>
+                </div>
+
+                <!-- вторая новость -->
+                <div class="news__spam spam-2">
+                  <div class="news__box-img">
+                    <picture class="news__picture">
+                      <source srcset="img/news-2.avif" type="image/avif">
+                      <source srcset="img/news-2.webp" type="image/webp">
+                      <img class="news__img" src="img/news-2.jpg" width="100" alt="paintings" aria-label="paintings">
+                    </picture>
+                  </div>
+
+                  <div class="news__box-info">
+                    <h3 class="news__subtitle">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </h3>
+
+                    <p class="news__date">
+                      20.02.2024 - 20.03.2024
+                    </p>
+
+                    <p class="news__paragraph">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat unde dignissimos voluptatem non
+                      quia tenetur cumque iusto nam deserunt culpa?
+                    </p>
+
+                    <button class="btn news__btn">
+                      Learn more&nbsp;&rarr;
+                    </button>
+                  </div>
+                </div>
+
+                <!-- третья новость -->
+                <div class="news__spam spam-3">
+                  <div class="news__box-img">
+                    <picture class="news__picture">
+                      <source srcset="img/news-4.avif" type="image/avif">
+                      <source srcset="img/news-4.webp" type="image/webp">
+                      <img class="news__img" src="img/news-4.jpg" width="100" alt="paintings" aria-label="paintings">
+                    </picture>
+                  </div>
+
+                  <div class="news__box-info">
+                    <h3 class="news__subtitle">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </h3>
+
+                    <p class="news__date">
+                      20.02.2024 - 20.03.2024
+                    </p>
+
+                    <p class="news__paragraph">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat unde dignissimos voluptatem non
+                      quia tenetur cumque iusto nam deserunt culpa?
+                    </p>
+
+                    <button class="btn news__btn">
+                      Learn more&nbsp;&rarr;
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+
+          <p class="footer__footnote">
+            &copy; 2024 Platon&nbsp;Yurich
+          </p>
+
+          <div class="footer__social">
+
+            <a href="" class="footer__social-link">
+              <img src="img/svg/instagram.svg" alt="Instagram">
+            </a>
+
+            <a href="" class="footer__social-link">
+              <img src="img/svg/telegram.svg" alt="Telegram">
+            </a>
+
+            <a href="mailto:platon.yurich@bk.ru" class="footer__social-link footer__mail-icon">
+              <img src="img/svg/email.svg" alt="Email">
+            </a>
+
+            <a href="mailto:platon.yurich@bk.ru" class="footer__mail">platon.yurich@bk.ru</a>
+
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+.main__wrapper {
+  min-height: calc(100svh - 220px);
+}

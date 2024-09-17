@@ -1,0 +1,348 @@
+@media (max-width: 1024px) {
+  .about,
+  .paintings,
+  .surrealism,
+  .sculpture,
+  .contacts {
+    padding-top: clamp(1.88rem, calc(-0.51rem + 7.63vw), 4.38rem); /* 70-30px */
+  }
+
+  .about,
+  .paintings,
+  .surrealism,
+  .sculpture,
+  .news,
+  .contacts,
+  .title,
+  hr {
+    margin-bottom: clamp(1.88rem, calc(-0.51rem + 7.63vw), 4.38rem);
+  }
+
+  /* section content ************************* */
+  .title {
+    font-size: clamp(1.75rem, calc(1.39rem + 1.15vw), 2.13rem); /* 34-28px */
+  }
+
+  /* section about ************************* */
+  .about__video-wrap,
+  .about__text-wrap {
+    width: 48%;
+  }
+
+  .reference {
+    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem); /* 18-16 */
+  }
+
+  .about__text {
+    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem); /* 16-14px */
+  }
+
+  /* section paintings ************************* */
+  .paintings__wrapper,
+  .surrealism__wrapper,
+  .sculpture__wrapper {
+    grid-row-gap: 80px;
+  }
+
+  .form {
+    width: clamp(18.75rem, calc(6.82rem + 38.17vw), 31.25rem); /* 500-300px */
+  }
+
+  .form__subtitle,
+  .form__data,
+  .form__paragraph {
+    margin-bottom: clamp(
+      0.63rem,
+      calc(0.03rem + 1.91vw),
+      1.25rem
+    ); /* 20-10px */
+  }
+
+  /* section surrealism ************************* */
+
+  /* section news ************************* */
+  .news__wrapper {
+    grid-row-gap: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
+  }
+
+  .news__subtitle {
+    font-size: clamp(1.38rem, calc(1.02rem + 1.15vw), 1.75rem); /* 28-22 */
+  }
+
+  .form__data,
+  .news__date {
+    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem); /* 18-16 */
+  }
+
+  .form__paragraph,
+  .news__paragraph {
+    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem); /* 16-14px */
+  }
+}
+
+@media (max-width: 768px) {
+  .main__wrapper {
+    margin-top: 61px;
+  }
+
+  .header__first-wrap {
+    justify-content: space-between;
+    border: none;
+    padding: 18px 0px;
+  }
+
+  .header__menu {
+    top: 0px;
+    background-color: transparent;
+    z-index: -1;
+  }
+
+  .header__burger {
+    display: block;
+  }
+
+  .empty-block {
+    display: none;
+  }
+
+  .menu {
+    width: 100%;
+    height: 100svh;
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    background-color: var(--color-bg);
+    visibility: hidden;
+    will-change: transform;
+    transition: transform 0.5s, visibility 0.5s;
+  }
+
+  .menu__list {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 0px clamp(0.94rem, calc(-0.91rem + 5.91vw), 5rem);
+  }
+
+  .menu__item {
+    width: 100%;
+    border-bottom: 1px solid var(--color-border);
+    padding: 0;
+    padding-bottom: 17px;
+    margin: 20px 0 0px;
+  }
+
+  .menu__link {
+    text-align: left;
+    padding: 0px;
+  }
+
+  .menu__span {
+    padding-right: 50px;
+  }
+
+  .storage-arrow {
+    display: none;
+  }
+
+  .menu__submenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: none;
+    margin-left: 10px;
+  }
+
+  .menu__submenu-item:first-child {
+    padding-top: 0;
+  }
+
+  .menu__submenu-item:last-child {
+    margin: 0;
+  }
+
+  /* accordion start */
+  .menu__details {
+    display: block;
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    overflow: hidden;
+  }
+
+  .menu__details::after {
+    width: 10px;
+    height: 10px;
+    display: block;
+    content: "";
+    position: absolute;
+    right: 24px;
+    top: 15px;
+    border-right: 1.5px solid var(--color-text);
+    border-bottom: 1.5px solid var(--color-text);
+    transform: rotate(45deg);
+    transform-origin: center;
+    transition: 0.3s;
+  }
+
+  .menu__details[open]::after {
+    transform: rotate(225deg);
+  }
+
+  .menu__details[open] {
+    padding-bottom: 80px;
+  }
+
+  .menu__details[open] .menu__details-title {
+    margin-bottom: 20px;
+  }
+
+  .menu__details-title::-webkit-details-marker {
+    display: none;
+  }
+
+  .menu__details-content p:last-child {
+    margin-bottom: 0;
+  }
+  .menu__details-content p:first-child {
+    margin-top: 0;
+  }
+  /* accordion end */
+
+  .header.open .menu {
+    visibility: visible;
+    transform: translateX(100%);
+  }
+
+  /* section about ************************* */
+  .about__wrapper {
+    flex-direction: column;
+  }
+
+  .about__video-wrap {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .about__text-wrap {
+    width: 100%;
+  }
+
+  .about__text {
+    font-size: 1.0625rem; /* 17px */
+  }
+
+  /* section paintings ************************* */
+
+  /* section surrealism ************************* */
+
+  /* section sculpture ************************* */
+
+  /* section news ************************* */
+
+  .news__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .spam-3 {
+    display: none;
+  }
+
+  /* section contacts ************************* */
+
+  /* section plug ************************* */
+  .plug__wrapper {
+    height: calc(100svh - 160px);
+  }
+
+  .plug-arrow {
+    top: calc(100vh - 250px);
+  }
+
+  /* footer ************************* */
+  .footer__social {
+    max-width: 150px;
+  }
+
+  .footer__mail-icon {
+    display: block;
+  }
+
+  .footer__mail {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  /* section about ************************* */
+  .about__video-wrap {
+    margin-bottom: 30px;
+  }
+
+  /* section paintings ************************* */
+  .paintings__wrapper,
+  .surrealism__wrapper,
+  .sculpture__wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 50px;
+    margin-bottom: 20px;
+  }
+
+  .paintings__modal-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .paintings__modal-box-info {
+    max-width: none;
+  }
+
+  .paintings__modal-subtitle {
+    margin-bottom: 10px;
+  }
+
+  .paintings__modal-date {
+    margin-bottom: 10px;
+  }
+
+  .paintings__modal-paragraph {
+    margin-bottom: 10px;
+  }
+
+  /* section news ************************* */
+  .news__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .news__box-img {
+    align-content: center;
+  }
+
+  /* section contacts ************************* */
+  .contacts__social {
+    max-width: 50svw;
+  }
+
+  .footer__footnote {
+    padding-right: 15px;
+  }
+
+  .footer__social {
+    max-width: 130px;
+  }
+}
+
+@media (max-width: 360px) {
+  .menu__list {
+    padding: 25px;
+  }
+}

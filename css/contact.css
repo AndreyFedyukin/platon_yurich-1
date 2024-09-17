@@ -1,0 +1,9 @@
+.main__wrapper {
+  min-height: calc(100svh - 220px);
+}
+
+@media (max-width: 768px) {
+  .main__wrapper {
+    min-height: calc(100svh - 160px);
+  }
+}
