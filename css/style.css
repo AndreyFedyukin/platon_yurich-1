@@ -780,7 +780,6 @@ hr {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  /* outline: 1px solid red; */
 }
 
 .paintings__picture {
@@ -790,7 +789,6 @@ hr {
   background-color: var(--color-border);
   padding: 70px;
   margin-bottom: 10px;
-  /* outline: 1px solid red; */
 }
 
 .paintings__img {
@@ -798,12 +796,8 @@ hr {
   max-width: 100%;
   height: 100%;
   object-fit: contain;
-  /* background-color: rgb(237, 237, 237); */
-  /* border: 20px solid white; */
   cursor: pointer;
-  /* padding: 10px; */
   margin: 0;
-  /* outline: 1px solid red; */
 }
 
 .paintings__reference {
