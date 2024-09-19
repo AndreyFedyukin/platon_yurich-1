@@ -1,27 +1,33 @@
 @media (max-width: 1024px) {
+
   .about,
-  .paintings,
-  .surrealism,
-  .sculpture,
+  .case,
   .contacts,
   .page {
-    padding-top: clamp(1.88rem, calc(-0.51rem + 7.63vw), 4.38rem); /* 70-30px */
+    padding-top: clamp(1.88rem, calc(-0.51rem + 7.63vw), 4.38rem);
+    /* 70-30px */
   }
 
   .about,
-  .paintings,
-  .surrealism,
-  .sculpture,
+  .case,
   .news,
   .contacts,
+  .page {
+    padding-bottom: clamp(1.88rem, calc(-0.51rem + 7.63vw), 4.38rem);
+    /* 70-30px */
+  }
+
   .title,
-  hr {
+  hr,
+  .case-wrap {
     margin-bottom: clamp(1.88rem, calc(-0.51rem + 7.63vw), 4.38rem);
+    /* 70-30px */
   }
 
   /* section content ************************* */
   .title {
-    font-size: clamp(1.75rem, calc(1.39rem + 1.15vw), 2.13rem); /* 34-28px */
+    font-size: clamp(1.75rem, calc(1.39rem + 1.15vw), 2.13rem);
+    /* 34-28px */
   }
 
   /* section about ************************* */
@@ -31,32 +37,32 @@
   }
 
   .reference {
-    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem); /* 18-16 */
+    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem);
+    /* 18-16 */
   }
 
   .about__text {
-    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem); /* 16-14px */
+    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
+    /* 16-14px */
   }
 
   /* section paintings ************************* */
-  .paintings__wrapper,
-  .surrealism__wrapper,
-  .sculpture__wrapper {
+  /* .case-wrap {
     grid-row-gap: 80px;
-  }
+  } */
 
   .form {
-    width: clamp(18.75rem, calc(6.82rem + 38.17vw), 31.25rem); /* 500-300px */
+    width: clamp(18.75rem, calc(6.82rem + 38.17vw), 31.25rem);
+    /* 500-300px */
   }
 
   .form__subtitle,
   .form__data,
   .form__paragraph {
-    margin-bottom: clamp(
-      0.63rem,
-      calc(0.03rem + 1.91vw),
-      1.25rem
-    ); /* 20-10px */
+    margin-bottom: clamp(0.63rem,
+        calc(0.03rem + 1.91vw),
+        1.25rem);
+    /* 20-10px */
   }
 
   /* section surrealism ************************* */
@@ -67,22 +73,26 @@
   }
 
   .news__subtitle {
-    font-size: clamp(1.38rem, calc(1.02rem + 1.15vw), 1.75rem); /* 28-22 */
+    font-size: clamp(1.38rem, calc(1.02rem + 1.15vw), 1.75rem);
+    /* 28-22 */
   }
 
   .form__data,
   .news__date {
-    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem); /* 18-16 */
+    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem);
+    /* 18-16 */
   }
 
   .form__paragraph,
   .news__paragraph {
-    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem); /* 16-14px */
+    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
+    /* 16-14px */
   }
 }
 
 @media (max-width: 768px) {
   .main__wrapper {
+    min-height: calc(100svh - 160px);
     margin-top: 61px;
   }
 
@@ -208,9 +218,11 @@
   .menu__details-content p:last-child {
     margin-bottom: 0;
   }
+
   .menu__details-content p:first-child {
     margin-top: 0;
   }
+
   /* accordion end */
 
   .header.open .menu {
@@ -233,24 +245,34 @@
   }
 
   .about__text {
-    font-size: 1.0625rem; /* 17px */
+    font-size: 1.0625rem;
+    /* 17px */
   }
 
-  /* section paintings ************************* */
-  .paintings__picture {
-    padding: clamp(3.13rem, calc(0.79rem + 7.46vw), 4.38rem); /* 70-50px */
+  /* case ************************* */
+  .pattern {
+    padding: clamp(3.13rem, calc(0.79rem + 7.46vw), 4.38rem);
+    /* 70-50px */
   }
 
   /* section page ************************* */
-  .page  {
+  .page {
     width: 100%;
     max-width: 80%;
-    margin: 0 auto;
-    margin-bottom: 50px;
   }
+
   .page__wrapper {
     grid-template-columns: 1fr;
+    margin-bottom: clamp(4.38rem, calc(0.88rem + 11.19vw), 6.25rem);
+    /* 100-70px */
   }
+
+  .page__picture {
+    padding: clamp(1.88rem, calc(-2.79rem + 14.93vw), 4.38rem);
+    /* 70-30px */
+  }
+
+  /* section paintings ************************* */
 
   /* section surrealism ************************* */
 
@@ -263,6 +285,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /*! надо убрать в процессе доработки */
   .spam-3 {
     display: none;
   }
@@ -293,30 +316,23 @@
 }
 
 @media (max-width: 500px) {
+
   /* section about ************************* */
   .about__video-wrap {
     margin-bottom: 30px;
   }
 
-  /* section paintings ************************* */
-  .paintings__wrapper,
-  .surrealism__wrapper,
-  .sculpture__wrapper {
+  /* case ************************* */
+  .case-wrap {
     grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 0;
-    grid-row-gap: 50px;
-    margin-bottom: 20px;
   }
 
-  .paintings__modal-box {
-    flex-direction: column;
-    gap: 10px;
+  /* section page ************************* */
+  .page {
+    max-width: 100%;
   }
 
-  .paintings__modal-box-info {
-    max-width: none;
-  }
-
+  /* section paintings ************************* */
   .paintings__modal-subtitle {
     margin-bottom: 10px;
   }

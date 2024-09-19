@@ -74,7 +74,8 @@ body {
   width: 100%;
   max-width: 1440px;
   padding: 0 80px;
-  padding: 0 clamp(0.94rem, calc(-0.91rem + 5.91vw), 5rem); /* max-80px min-15px */
+  padding: 0 clamp(0.94rem, calc(-0.91rem + 5.91vw), 5rem);
+  /* max-80px min-15px */
   margin: 0 auto;
   /* outline: 1px solid red; */
 }
@@ -225,6 +226,7 @@ body {
   outline: 1px solid var(--color-text);
   padding-right: 30px;
 }
+
 .switch-button:before {
   width: 30px;
   content: "Rus";
@@ -238,6 +240,7 @@ body {
   pointer-events: none;
   z-index: 3;
 }
+
 .switch-button-checkbox {
   width: 100%;
   height: 100%;
@@ -249,11 +252,13 @@ body {
   opacity: 0;
   z-index: 2;
 }
-.switch-button-checkbox:checked + .switch-button-label:before {
+
+.switch-button-checkbox:checked+.switch-button-label:before {
   transform: translateX(30px);
   transition: transform 300ms linear;
 }
-.switch-button-checkbox + .switch-button-label {
+
+.switch-button-checkbox+.switch-button-label {
   display: block;
   position: relative;
   -webkit-user-select: none;
@@ -262,7 +267,8 @@ body {
   pointer-events: none;
   padding: 2px 0;
 }
-.switch-button-checkbox + .switch-button-label:before {
+
+.switch-button-checkbox+.switch-button-label:before {
   width: 100%;
   height: 100%;
   content: "";
@@ -274,7 +280,8 @@ body {
   transform: translateX(0);
   transition: transform 300ms;
 }
-.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+
+.switch-button-checkbox+.switch-button-label .switch-button-label-span {
   position: relative;
 }
 
@@ -326,9 +333,11 @@ body {
   &:focus {
     color: var(--color-hover-menu);
   }
+
   &:hover {
     color: var(--color-hover-menu);
   }
+
   &:active {
     color: var(--color-hover-menu);
   }
@@ -378,9 +387,11 @@ body {
   0% {
     margin-top: 0;
   }
+
   50% {
     margin-top: 20px;
   }
+
   100% {
     margin-top: 0;
   }
@@ -435,7 +446,7 @@ details summary::-webkit-details-marker {
 .main__wrapper {
   width: 100%;
   max-width: 100svw;
-  min-height: calc(100svh - 100px);
+  min-height: calc(100svh - 220px);
   margin-top: 120px;
 }
 
@@ -547,15 +558,6 @@ details summary::-webkit-details-marker {
   margin-bottom: 10px;
 }
 
-.reference {
-  font-family: "Roboto";
-  font-family: "Ubuntu";
-  font-family: "Open Sans";
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
-}
-
 .about__text-wrap {
   width: 45%;
   max-height: 390px;
@@ -577,6 +579,7 @@ details summary::-webkit-details-marker {
 }
 
 .btn {
+  width: max-content;
   display: block;
   font-family: "Open Sans";
   font-weight: 400;
@@ -586,6 +589,7 @@ details summary::-webkit-details-marker {
   /* outline: 1px solid var(--color-border); */
   border: none;
   border-radius: 3px;
+  align-self: center;
   transition: all 0.3s ease-in;
   padding: 5px 10px;
 
@@ -678,22 +682,17 @@ hr {
   margin: 0 0 70px;
 }
 
-/* section paintings ************************* */
-.paintings {
-  width: 100%;
+/* case ************************* */
+.case {
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  padding-top: 70px;
-  margin-bottom: 70px;
+  padding: 70px 0px;
 }
 
-.paintings__title {
-  align-self: center;
-}
-
-.paintings__wrapper {
-  width: 100%;
+.case-wrap {
+  /* width: 100%; */
   max-width: 85%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -703,8 +702,8 @@ hr {
   margin-bottom: 50px;
 }
 
-.paintings__box {
-  width: 100%;
+.case-box {
+  /* width: 100%; */
   max-width: 550px;
   height: auto;
   max-height: 350px;
@@ -715,8 +714,8 @@ hr {
   justify-content: center;
 }
 
-.paintings__picture {
-  width: 100%;
+.pattern {
+  /* width: 100%; */
   max-width: 100%;
   height: 100%;
   background-color: var(--color-border);
@@ -724,8 +723,8 @@ hr {
   margin-bottom: 10px;
 }
 
-.paintings__img {
-  width: 100%;
+.image {
+  /* width: 100%; */
   max-width: 100%;
   height: 100%;
   object-fit: contain;
@@ -733,53 +732,18 @@ hr {
   transition: all 0.3s ease-in;
   margin: 0;
 
-  &:hover {
+  /* &:hover {
     transform: scale(1.5);
-  }
+  } */
 }
 
-.paintings__reference {
-  font-weight: 600;
-  text-align: center;
-}
-
-.paintings__text {
-  display: flex;
-  text-align: left;
-  align-items: center;
-}
-
-.paintings__modal-box {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  gap: clamp(1.25rem, calc(0.25rem + 3.19vw), 3.13rem); /* 50-20px */
-}
-
-.paintings__close-btn {
-  right: auto;
-  left: 10px;
-  transition: all 0.3s ease-in;
-
-  &:hover {
-    outline: 1px solid var(--color-bg);
-  }
-}
-
-.paintings__modal-box-info {
-  width: 100%;
-  max-width: 40%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.paintings__btn {
-  margin: 0 auto;
+.reference {
+  font-family: "Roboto";
+  font-family: "Ubuntu";
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 /* section page ************************* */
@@ -790,7 +754,8 @@ hr {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  padding-top: 70px;
+  padding: 70px 0px;
+  margin: 0 auto;
 }
 
 .page__wrapper {
@@ -912,85 +877,110 @@ hr {
   outline: 1px solid var(--color-border);
 }
 
+/* section paintings ************************* */
+.paintings {
+  width: 100%;
+}
+
+.paintings__title {
+  align-self: center;
+}
+
+.paintings__wrapper {
+  width: 100%;
+}
+
+.paintings__box {
+  width: 100%;
+}
+
+.paintings__picture {
+  width: 100%;
+}
+
+.paintings__img {
+  width: 100%;
+}
+
+.paintings__reference {
+  font-weight: 600;
+  text-align: center;
+}
+
+.paintings__btn {
+  margin: 0 auto;
+}
+
 /* section surrealism ************************* */
 .surrealism {
-  padding-top: 70px;
-  margin-bottom: 70px;
+  width: 100%;
+  /* padding-top: 70px;
+  margin-bottom: 70px; */
 }
 
 .surrealism__wrapper {
-  display: grid;
+  width: 100%;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 10%;
   grid-row-gap: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 50px; */
 }
 
 .surrealism__box {
-  display: flex;
+  width: 100%;
+  /* display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .surrealism__picture {
-  background-color: var(--color-border);
+  width: 100%;
+  /* background-color: var(--color-border);
   padding: 37px 30px 55px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
 }
 
 .surrealism__img {
   width: 100%;
-  cursor: pointer;
-}
-
-.surrealism__text {
-  display: flex;
-  text-align: left;
-  align-items: center;
+  /* cursor: pointer; */
 }
 
 /* section sculpture ************************* */
 .sculpture {
   width: 100%;
-  padding-top: 70px;
-  margin-bottom: 70px;
+}
+
+.sculpture__title {
+  align-self: center;
 }
 
 .sculpture__wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 10%;
-  grid-row-gap: 100px;
-  margin-bottom: 50px;
+  width: 100%;
 }
 
 .sculpture__box {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-  justify-content: center;
+  width: 100%;
 }
 
 .sculpture__picture {
-  background-color: var(--color-border);
-  padding: 37px 30px 55px;
-  margin-bottom: 10px;
+  width: 100%;
 }
 
 .sculpture__img {
   width: 100%;
-  cursor: pointer;
 }
 
-.sculpture__text {
-  display: flex;
-  text-align: left;
-  align-items: center;
+.sculpture__reference {
+  font-weight: 600;
+  text-align: center;
+}
+
+.sculpture__btn {
+  margin: 0 auto;
 }
 
 /* section news ************************* */
@@ -1187,9 +1177,11 @@ hr {
   0% {
     margin-top: 0;
   }
+
   50% {
     margin-top: 20px;
   }
+
   100% {
     margin-top: 0;
   }
