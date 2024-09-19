@@ -21,6 +21,10 @@ button {
   cursor: pointer;
 }
 
+li {
+  cursor: default;
+}
+
 p,
 ul,
 button {
@@ -214,6 +218,10 @@ body {
 /* switch ************************* */
 .switch-button {
   width: 60px;
+  width: 24px;
+  /*! временное скрытие до подключения к переводчику */
+  visibility: hidden;
+  /*! временное скрытие до подключения к переводчику */
   position: relative;
   background-color: rgb(187, 187, 187);
   border-radius: 0px;
@@ -244,12 +252,12 @@ body {
 .switch-button-checkbox {
   width: 100%;
   height: 100%;
-  cursor: pointer;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   opacity: 0;
+  cursor: pointer;
   z-index: 2;
 }
 
@@ -354,6 +362,10 @@ body {
 
 .menu__link:hover::after {
   width: 100%;
+}
+
+.menu__details-title {
+  cursor: pointer;
 }
 
 .menu__storage:hover .menu__submenu {
