@@ -1097,10 +1097,6 @@ hr {
   margin-bottom: 50px;
 }
 
-.content__img {
-  object-fit: contain;
-}
-
 .contacts__social {
   width: 100%;
   max-width: 270px;
