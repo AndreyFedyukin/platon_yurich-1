@@ -492,8 +492,7 @@ details summary::-webkit-details-marker {
   flex-wrap: nowrap;
   align-items: start;
   justify-content: space-between;
-  padding-top: 70px;
-  margin-bottom: 70px;
+  padding: 70px 0px;
 }
 
 .about__wrapper {
@@ -986,7 +985,7 @@ hr {
 /* section news ************************* */
 .news {
   width: 100%;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .news__wrapper {
@@ -1096,6 +1095,10 @@ hr {
 .contacts__picture {
   max-width: 500px;
   margin-bottom: 50px;
+}
+
+.content__img {
+  object-fit: contain;
 }
 
 .contacts__social {
