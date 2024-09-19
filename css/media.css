@@ -3,7 +3,8 @@
   .paintings,
   .surrealism,
   .sculpture,
-  .contacts {
+  .contacts,
+  .page {
     padding-top: clamp(1.88rem, calc(-0.51rem + 7.63vw), 4.38rem); /* 70-30px */
   }
 
@@ -238,6 +239,17 @@
   /* section paintings ************************* */
   .paintings__picture {
     padding: clamp(3.13rem, calc(0.79rem + 7.46vw), 4.38rem); /* 70-50px */
+  }
+
+  /* section page ************************* */
+  .page  {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .page__wrapper {
+    grid-template-columns: 1fr;
   }
 
   /* section surrealism ************************* */

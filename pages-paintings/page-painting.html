@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/media.css">
+
 </head>
 
 <body>
@@ -34,8 +35,8 @@
               <a href="/index.html" class="logo header__logo" aria-label="Home">Platon&nbsp;Yurich</a>
 
               <div class="switch-button">
-                <input class="switch-button-checkbox" type="checkbox"></input>
-                <label class="switch-button-label" for="">
+                <input class="switch-button-checkbox" type="checkbox">
+                <label class="switch-button-label">
                   <span class="switch-button-label-span">En</span>
                 </label>
               </div>
@@ -112,35 +113,35 @@
 
               <div class="page__wrapper">
 
-                <picture class="modal__card-img page__modal-img js-open-form">
-                  <source srcset="img/coll-1.avif" type="image/avif">
-                  <source srcset="img/coll-1.webp" type="image/webp">
-                  <img class="modal__img" src="img/coll-1.jpg" alt="Card img" aria-label="Card image" loading="lazy">
+                <picture class="page__picture">
+                  <source srcset="/img/coll-2.avif" type="image/avif">
+                  <source srcset="/img/coll-2.webp" type="image/webp">
+                  <img class="page__img" src="/img/coll-2.jpg" alt="Card img" aria-label="Card image" loading="lazy">
                 </picture>
 
-                <button class="modal__close-btn page__close-btn js-close-btn" aria-label="Close">
+                <!-- <button class="modal__close-btn page__close-btn js-close-btn" aria-label="Close">
                   close
-                </button>
+                </button> -->
 
-                <div class="page__modal-box-info">
-                  <h3 class="form__subtitle page__modal-subtitle">
+                <div class="page__box-info">
+                  <h3 class="form__subtitle page__subtitle">
                     Lorem ipsum dolor sit, amet consectetur adipisicing.
                   </h3>
 
-                  <p class="form__data page__modal-date">
+                  <p class="form__data page__date">
                     20.02.2024 - 20.03.2024
-                  </p>
-
-                  <p class="form__paragraph page__modal-paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat unde dignissimos
-                    voluptatem
-                    non
-                    quia tenetur cumque iusto nam deserunt culpa?
                   </p>
 
                   <button class="btn form__open-btn js-open-form">
                     Contact us for availability
                   </button>
+
+                  <p class="form__paragraph page__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat unde dignissimos
+                    voluptatem
+                    non
+                    quia tenetur cumque iusto nam deserunt culpa?
+                  </p>
 
                   <!-- форма для отправки сообщение на почту -->
                   <div class="modal form__modal js-modal-form">
@@ -180,9 +181,11 @@
 
               </div>
 
-              <button class="btn page__btn">
-                Learn more&nbsp;&rarr;
-              </button>
+              <form class="page__back" action="/paintings.html">
+                <button class="btn" type="submit">
+                  &larr;&emsp;Return back to page
+                </button>
+              </form>
 
             </div>
           </div>
@@ -202,15 +205,15 @@
           <div class="footer__social">
 
             <a href="" class="footer__social-link">
-              <img src="img/svg/instagram.svg" alt="Instagram">
+              <img src="/img/svg/instagram.svg" alt="Instagram">
             </a>
 
             <a href="" class="footer__social-link">
-              <img src="img/svg/telegram.svg" alt="Telegram">
+              <img src="/img/svg/telegram.svg" alt="Telegram">
             </a>
 
             <a href="mailto:platon.yurich@bk.ru" class="footer__social-link footer__mail-icon">
-              <img src="img/svg/email.svg" alt="Email">
+              <img src="/img/svg/email.svg" alt="Email">
             </a>
 
             <a href="mailto:platon.yurich@bk.ru" class="footer__mail">platon.yurich@bk.ru</a>
@@ -222,7 +225,7 @@
     </footer>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
