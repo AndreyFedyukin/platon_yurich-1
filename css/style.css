@@ -695,7 +695,6 @@ hr {
 
 /* case ************************* */
 .case {
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -703,7 +702,6 @@ hr {
 }
 
 .case-wrap {
-  /* width: 100%; */
   max-width: 85%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -714,7 +712,6 @@ hr {
 }
 
 .case-box {
-  /* width: 100%; */
   max-width: 550px;
   height: auto;
   max-height: 350px;
@@ -726,7 +723,6 @@ hr {
 }
 
 .pattern {
-  /* width: 100%; */
   max-width: 100%;
   height: 100%;
   background-color: var(--color-border);
@@ -735,17 +731,12 @@ hr {
 }
 
 .image {
-  /* width: 100%; */
   max-width: 100%;
   height: 100%;
   object-fit: contain;
   cursor: pointer;
   transition: all 0.3s ease-in;
   margin: 0;
-
-  /* &:hover {
-    transform: scale(1.5);
-  } */
 }
 
 .reference {
@@ -921,39 +912,27 @@ hr {
 /* section surrealism ************************* */
 .surrealism {
   width: 100%;
-  /* padding-top: 70px;
-  margin-bottom: 70px; */
 }
 
 .surrealism__wrapper {
   width: 100%;
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 10%;
-  grid-row-gap: 100px;
-  margin-bottom: 50px; */
 }
 
 .surrealism__box {
   width: 100%;
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-  justify-content: center; */
 }
 
 .surrealism__picture {
   width: 100%;
-  /* background-color: var(--color-border);
-  padding: 37px 30px 55px;
-  margin-bottom: 10px; */
 }
 
 .surrealism__img {
   width: 100%;
-  /* cursor: pointer; */
+}
+
+.surrealism__reference {
+  font-weight: 600;
+  text-align: center;
 }
 
 /* section sculpture ************************* */
@@ -1027,7 +1006,6 @@ hr {
   justify-content: center;
   align-items: flex-start;
   padding: 0 7%;
-  /* padding: 0 clamp(1.88rem, calc(0.52rem + 6.02vw), 5.94rem); */
 }
 
 .news__subtitle {

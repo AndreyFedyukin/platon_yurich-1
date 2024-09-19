@@ -47,10 +47,6 @@
   }
 
   /* section paintings ************************* */
-  /* .case-wrap {
-    grid-row-gap: 80px;
-  } */
-
   .form {
     width: clamp(18.75rem, calc(6.82rem + 38.17vw), 31.25rem);
     /* 500-300px */
