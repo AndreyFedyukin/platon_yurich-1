@@ -585,7 +585,7 @@ details summary::-webkit-details-marker {
   font-size: 14px;
   font-style: italic;
   background-color: var(--color-bg);
-  /* outline: 1px solid var(--color-border); */
+  outline: 1px solid var(--color-border);
   border: none;
   border-radius: 3px;
   align-self: center;
@@ -799,10 +799,6 @@ hr {
 }
 
 /* форма для отправки сообщение на почту */
-.form__open-btn {
-  outline: 1px solid var(--color-border);
-}
-
 .form__modal {
   width: 100%;
   background-color: transparent;
@@ -863,6 +859,7 @@ hr {
   width: 100%;
   color: var(--color-white);
   background-color: var(--color-text);
+  outline: none;
   margin-bottom: 20px;
 }
 
@@ -873,7 +870,6 @@ hr {
 .page__back {
   width: max-content;
   align-self: center;
-  outline: 1px solid var(--color-border);
 }
 
 /* section paintings ************************* */
