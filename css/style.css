@@ -508,7 +508,7 @@ details summary::-webkit-details-marker {
   flex-wrap: nowrap;
   align-items: start;
   justify-content: space-between;
-  padding: 70px 0px;
+  padding: 50px 0px;
 }
 
 .about__wrapper {
@@ -536,7 +536,7 @@ details summary::-webkit-details-marker {
   font-weight: 600;
   line-height: 160%;
   text-transform: uppercase;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .about__quote {
@@ -702,7 +702,7 @@ hr {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  padding: 70px 0px;
+  padding: 50px 0px;
 }
 
 .case-wrap {
@@ -760,7 +760,7 @@ hr {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  padding: 70px 0px;
+  padding: 50px 0px;
   margin: 0 auto;
 }
 
@@ -786,7 +786,7 @@ hr {
   justify-content: center;
   /* aspect-ratio: 4/3; */
   background-color: var(--color-border);
-  padding: 70px;
+  padding: 50px;
 }
 
 .page__img {
@@ -979,12 +979,20 @@ hr {
 }
 
 /* section vases ************************* */
+.vases__content-picture {
+  width: 100%;
+  max-width: 100svw;
+}
 
+.vases-content__img {
+  width: 100%;
+  max-height: 43svh;
+}
 
 /* section news ************************* */
 .news {
   width: 100%;
-  padding-bottom: 70px;
+  padding: 50px 0px;
 }
 
 .news__wrapper {
@@ -1059,7 +1067,7 @@ hr {
 /* section contact ************************* */
 .contacts {
   width: 100%;
-  padding: 70px 0px;
+  padding: 50px 0px;
 }
 
 .contacts__wrapper {
