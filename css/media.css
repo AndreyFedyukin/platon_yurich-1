@@ -112,6 +112,10 @@
     display: none;
   }
 
+  .switch-button {
+    width: 24px;
+  }
+
   .menu {
     width: 100%;
     height: 100svh;
