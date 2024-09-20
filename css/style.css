@@ -214,6 +214,10 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
   transition: color 0.3s;
+
+  &:hover {
+    font-weight: 600;
+  }
 }
 
 /* switch ************************* */
