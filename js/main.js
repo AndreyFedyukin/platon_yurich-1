@@ -215,9 +215,9 @@ modalForms.forEach((element) => {
 });
 
 //! добавление блоков ***************************
-function showMore() {
-  const hidden = document.querySelectorAll(".block .block-hidden");
-  for (let i = 0; i < Math.min(2, hidden.length); i++) {
-    hidden[i].classList.remove("block-hidden");
-  }
-}
+// function showMore() {
+//   const hidden = document.querySelectorAll(".block .block-hidden");
+//   for (let i = 0; i < Math.min(2, hidden.length); i++) {
+//     hidden[i].classList.remove("block-hidden");
+//   }
+// }
