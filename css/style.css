@@ -508,9 +508,26 @@ details summary::-webkit-details-marker {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items: start;
+  /* align-items: start; */
   justify-content: space-between;
   padding: 50px 0px;
+}
+
+.title {
+  color: var(--color-text);
+  font-family: "Roboto";
+  font-family: "Ubuntu";
+  font-family: "Open Sans";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.about__title {
+  text-align: start;
 }
 
 .about__wrapper {
@@ -527,18 +544,6 @@ details summary::-webkit-details-marker {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
-}
-
-.title {
-  color: var(--color-text);
-  font-family: "Roboto";
-  font-family: "Ubuntu";
-  font-family: "Open Sans";
-  font-size: 34px;
-  font-weight: 600;
-  line-height: 160%;
-  text-transform: uppercase;
-  margin-bottom: 50px;
 }
 
 .about__quote {
@@ -775,7 +780,7 @@ hr {
   gap: 3%;
   align-items: start;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .page__picture {
