@@ -115,7 +115,7 @@
 
   /* section page ************************* */
   .page__picture {
-    min-height: clamp(18.75rem, calc(-9.37rem + 58.59vw), 28.13rem);
+    /* min-height: clamp(18.75rem, calc(-9.37rem + 58.59vw), 28.13rem); */
     /* 450-300px */
     padding: clamp(3.13rem, calc(-0.62rem + 7.81vw), 4.38rem);
     /* 70-50px */
@@ -294,7 +294,7 @@
   /* section vases ************************* */
   .vases-info__img-1,
   .vases-info__img-2 {
-    margin-bottom: 7%;
+    margin-bottom: 20px;
   }
 
   .vases-info__text {
@@ -310,11 +310,14 @@
 
   .page__wrapper {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     margin-bottom: clamp(4.38rem, calc(0.88rem + 11.19vw), 6.25rem);
     /* 100-70px */
+    margin-bottom: 70px;
   }
 
   .page__picture {
+    min-height: auto;
     padding: clamp(1.88rem, calc(-2.79rem + 14.93vw), 4.38rem);
     /* 70-30px */
   }
@@ -379,6 +382,10 @@
     max-width: 100%;
   }
 
+  .page__wrapper {
+    margin-bottom: 30px;
+  }
+
   /* section paintings ************************* */
   .paintings__modal-subtitle {
     margin-bottom: 10px;
@@ -396,6 +403,11 @@
   .vases-mag__wrapper {
     max-width: 80%;
     flex-direction: column;
+  }
+
+  .vases-info__img-1,
+  .vases-info__img-2 {
+    margin-bottom: 10px;
   }
 
   /* section news ************************* */
