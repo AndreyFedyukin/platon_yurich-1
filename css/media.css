@@ -47,15 +47,15 @@
     /* 16-14px */
   }
 
-  /* section paintings ************************* */
+  /* section form ************************* */
   .form {
     width: clamp(18.75rem, calc(6.82rem + 38.17vw), 31.25rem);
     /* 500-300px */
   }
 
-  .form__subtitle,
-  .form__data,
-  .form__paragraph {
+  .page__title,
+  .page__price,
+  .page__paragraph {
     margin-bottom: clamp(0.63rem,
         calc(0.03rem + 1.91vw),
         1.25rem);
@@ -101,16 +101,24 @@
     /* 28-22 */
   }
 
-  .form__data,
+  .page__price,
   .news__date {
     font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem);
     /* 18-16 */
   }
 
-  .form__paragraph,
+  .page__paragraph,
   .news__paragraph {
     font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
     /* 16-14px */
+  }
+
+  /* section page ************************* */
+  .page__picture {
+    min-height: clamp(18.75rem, calc(-9.37rem + 58.59vw), 28.13rem);
+    /* 450-300px */
+    padding: clamp(3.13rem, calc(-0.62rem + 7.81vw), 4.38rem);
+    /* 70-50px */
   }
 }
 

@@ -51,6 +51,7 @@ h3 {
 
 :root {
   --color-bg: rgb(255, 255, 255);
+  --color-bg-page: rgb(246, 246, 246);
   --color-text: rgb(34, 34, 34);
   --color-hover-menu: rgb(0, 0, 0);
   --color-border: rgba(200, 200, 200, 0.8);
@@ -770,7 +771,7 @@ hr {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 70%;
-  gap: 7%;
+  gap: 3%;
   align-items: start;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -780,13 +781,14 @@ hr {
   width: 100%;
   max-width: 100%;
   height: 100%;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   /* aspect-ratio: 4/3; */
-  background-color: var(--color-border);
-  padding: 50px;
+  background-color: var(--color-bg-page);
+  padding: 70px;
 }
 
 .page__img {
@@ -801,13 +803,70 @@ hr {
   }
 }
 
-.page__box-info {
+.page__info {
   width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.page__title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.page__price {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.page__open-btn {
+  width: 100%;
+  color: var(--color-white);
+  font-size: 12px;
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: var(--color-text);
+  outline: none;
+  padding: 10px 5px;
+  margin-bottom: 37px;
+}
+
+.page__box {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.page__box p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.page__box-title,
+.page__description-title {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.page__box-title,
+.page__date {
+  font-style: italic;
+}
+
+.page__description {
+  font-size: 14px;
+}
+
+.page__paragraph {
+  font-size: 16px;
+}
+
+.page__back {
+  width: max-content;
+  align-self: center;
 }
 
 /* форма для отправки сообщение на почту */
@@ -856,33 +915,6 @@ hr {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-}
-
-.form__subtitle {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-
-.form__data {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.form__open-btn {
-  width: 100%;
-  color: var(--color-white);
-  background-color: var(--color-text);
-  outline: none;
-  margin-bottom: 20px;
-}
-
-.form__paragraph {
-  font-size: 16px;
-}
-
-.page__back {
-  width: max-content;
-  align-self: center;
 }
 
 /* section paintings ************************* */
