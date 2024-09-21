@@ -694,7 +694,7 @@ hr {
   width: 100%;
   border: none;
   border-top: 1px solid var(--color-border);
-  margin: 0 0 70px;
+  margin: 0 0 50px;
 }
 
 /* case ************************* */
@@ -981,13 +981,112 @@ hr {
 /* section vases ************************* */
 .vases__picture {
   width: 100%;
-  max-width: 100svw;
+  max-width: 50%;
 }
 
 .vases__img {
   width: 100%;
   max-height: 43svh;
 }
+
+.vases-mag {
+  margin-bottom: 50px;
+}
+
+.vases-mag__wrapper {
+  width: 100%;
+  max-width: 87%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 15%;
+  margin: 0 auto;
+}
+
+.vases-mag__picture {
+  width: 100%;
+}
+
+.vases-mag__box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.vases-mag__logo-img {
+  width: 100%;
+  max-width: 50%;
+  margin-bottom: 25px;
+}
+
+.vases-mag__text {
+  width: 100%;
+  color: var(--color-text);
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  overflow: hidden;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.vases-mag__site {
+  width: 100%;
+  color: var(--color-text);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  overflow: hidden;
+}
+
+.vases-info__wrapper {
+  width: 100%;
+  max-width: 87%;
+  margin: 0 auto;
+}
+
+.vases-info__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.vases-info__text {
+  width: 100%;
+  color: var(--color-text);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  overflow: hidden;
+  text-align: justify;
+  hyphens: auto;
+  margin-bottom: 50px;
+}
+
+.vases-info__img-1 {
+  width: 100%;
+  width: 42%;
+  float: right;
+  aspect-ratio: 4 / 3;
+  margin-bottom: 30px;
+  margin-left: 10%;
+}
+
+.vases-info__img-2 {
+  width: 100%;
+  width: 42%;
+  float: left;
+  aspect-ratio: 4 / 3;
+  margin-right: 10%;
+  margin-bottom: 30px;
+}
+
 
 /* section news ************************* */
 .news {

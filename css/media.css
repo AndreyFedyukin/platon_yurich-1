@@ -19,7 +19,8 @@
 
   .title,
   hr,
-  .case-wrap {
+  .case-wrap,
+  .vases-mag {
     margin-bottom: clamp(1.25rem, calc(-0.54rem + 5.73vw), 3.13rem);
     /* 50-20px */
   }
@@ -62,6 +63,33 @@
   }
 
   /* section surrealism ************************* */
+
+  /* section vases ************************* */
+  .vases-mag__wrapper {
+    max-width: 90%;
+    gap: clamp(1.25rem, calc(-4.71rem + 19.08vw), 7.5rem);
+    /* 120-20px */
+  }
+
+  .vases-mag__text {
+    font-weight: 500;
+    font-size: clamp(0.75rem, calc(0.51rem + 0.76vw), 1rem);
+    /* 16-12px */
+    line-height: clamp(1.13rem, calc(0.83rem + 0.95vw), 1.44rem);
+    /* 23-18px */
+    margin-bottom: clamp(0.63rem, calc(-1.76rem + 7.63vw), 3.13rem);
+    /* 50-10px */
+  }
+
+  .vases-mag__logo-img {
+    margin-bottom: clamp(0.63rem, calc(-0.27rem + 2.86vw), 1.56rem);
+    /* 25-10px */
+  }
+
+  .vases-mag__site {
+    font-size: clamp(1rem, calc(0.64rem + 1.15vw), 1.38rem);
+    /* 22-16px */
+  }
 
   /* section news ************************* */
   .news__wrapper {
@@ -255,6 +283,17 @@
     /* 70-50px */
   }
 
+  /* section vases ************************* */
+  .vases-info__img-1,
+  .vases-info__img-2 {
+    margin-bottom: 7%;
+  }
+
+  .vases-info__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   /* section page ************************* */
   .page {
     width: 100%;
@@ -343,6 +382,12 @@
 
   .paintings__modal-paragraph {
     margin-bottom: 10px;
+  }
+
+  /* section vases ************************* */
+  .vases-mag__wrapper {
+    max-width: 80%;
+    flex-direction: column;
   }
 
   /* section news ************************* */
