@@ -840,6 +840,7 @@ hr {
   border: 1px solid var(--color-border);
   border-radius: 0.3rem;
   outline: none;
+  transition: all 0.3s ease-in;
   padding: 1rem;
 
   &:focus,
@@ -1043,6 +1044,12 @@ hr {
   font-size: 22px;
   line-height: 28px;
   overflow: hidden;
+  transition: all 0.3s ease-in;
+  padding: 8px;
+
+  &:hover {
+    font-weight: 600;
+  }
 }
 
 .vases-info__wrapper {
