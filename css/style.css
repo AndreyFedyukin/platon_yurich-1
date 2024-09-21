@@ -388,12 +388,12 @@ body {
 }
 
 .storage-arrow:after {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   content: " ";
   position: absolute;
-  top: 4px;
-  left: 3px;
+  top: 3px;
+  left: 0px;
   border-bottom: 1.5px solid;
   border-right: 1.5px solid;
   transform: rotateZ(45deg);
