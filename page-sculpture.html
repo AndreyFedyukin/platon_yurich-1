@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -167,44 +167,30 @@
                       Literature:
                     </h4>
 
-                    <p class="page__paragraph"></p>
-                    "Brad Pitt Unleashed", W, July 1999
+                    <p class="page__paragraph">
+                      "Brad Pitt Unleashed", W, July 1999
                     </p>
                   </div>
                 </div>
 
-                <!-- форма для отправки сообщение на почту -->
+                <!-- окно для отправки сообщения на почту -->
                 <div class="modal form__modal js-modal-form">
                   <div class="modal__box">
+                    <div class="notice">
+                      <h2 class="notice__title">Направить запрос</h2>
 
-                    <form id="form" class="form" autocomplete="off">
-                      <h2 class="form__title">Write to me</h2>
+                      <hr>
 
-                      <div class="form__box">
-                        <input class="form__input" type="text" id="name" name="name" placeholder="Name"
-                          autocomplete="off">
+                      <div class="notice__group-btn">
+                        <a href="mailto:platon.yurich@bk.ru" class="notice__mail" aria-label="E-mail">
+                          Напишите мне, чтобы узнать о наличии
+                        </a>
+
+                        <a href="sculpture.html" class="notice__back" aria-label="Back">
+                          Продолжить покупки
+                        </a>
                       </div>
-
-                      <div class="form__box">
-                        <input class="form__input" type="tel" id="tel" name="tel" placeholder="+7(___)___-__-__"
-                          autocomplete="off">
-                      </div>
-
-                      <div class="form__box">
-                        <textarea class="form__input" rows="5" name="msg" id="msg" placeholder="Message"
-                          maxlength="1000"></textarea>
-                      </div>
-
-                      <div class="form__group-btn">
-                        <button aria-label="Send me" class="btn form__btn" type="submit">
-                          Send me
-                        </button>
-
-                        <button aria-label="Cancel" class="btn form__btn-close js-close-form">
-                          Cancel
-                        </button>
-                      </div>
-                    </form>
+                    </div>
                   </div>
                 </div>
 

@@ -1,11 +1,9 @@
 @media (max-width: 1024px) {
-
   .about,
   .case,
   .contacts,
   .page {
-    padding-top: clamp(1.25rem, calc(-0.54rem + 5.73vw), 3.13rem);
-    /* 50-20px */
+    padding-top: clamp(1.25rem, calc(-0.54rem + 5.73vw), 3.13rem); /* 50-20px */
   }
 
   .about,
@@ -13,8 +11,11 @@
   .news,
   .contacts,
   .page {
-    padding-bottom: clamp(1.25rem, calc(-0.54rem + 5.73vw), 3.13rem);
-    /* 50-20px */
+    padding-bottom: clamp(
+      1.25rem,
+      calc(-0.54rem + 5.73vw),
+      3.13rem
+    ); /* 50-20px */
   }
 
   .title,
@@ -22,14 +23,16 @@
   .case-wrap,
   .vases-mag,
   .vases-info__title {
-    margin-bottom: clamp(1.25rem, calc(-0.54rem + 5.73vw), 3.13rem);
-    /* 50-20px */
+    margin-bottom: clamp(
+      1.25rem,
+      calc(-0.54rem + 5.73vw),
+      3.13rem
+    ); /* 50-20px */
   }
 
   /* section content ************************* */
   .title {
-    font-size: clamp(1.75rem, calc(1.39rem + 1.15vw), 2.13rem);
-    /* 34-28px */
+    font-size: clamp(1.75rem, calc(1.39rem + 1.15vw), 2.13rem); /* 34-28px */
   }
 
   /* section about ************************* */
@@ -39,28 +42,26 @@
   }
 
   .reference {
-    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem);
-    /* 18-16 */
+    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem); /* 18-16 */
   }
 
   .about__text {
-    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
-    /* 16-14px */
+    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem); /* 16-14px */
   }
 
   /* section form ************************* */
   .form {
-    width: clamp(18.75rem, calc(6.82rem + 38.17vw), 31.25rem);
-    /* 500-300px */
+    width: clamp(18.75rem, calc(6.82rem + 38.17vw), 31.25rem); /* 500-300px */
   }
 
   .page__title,
   .page__price,
   .page__paragraph {
-    margin-bottom: clamp(0.63rem,
-        calc(0.03rem + 1.91vw),
-        1.25rem);
-    /* 20-10px */
+    margin-bottom: clamp(
+      0.63rem,
+      calc(0.03rem + 1.91vw),
+      1.25rem
+    ); /* 20-10px */
   }
 
   /* section surrealism ************************* */
@@ -68,27 +69,29 @@
   /* section vases ************************* */
   .vases-mag__wrapper {
     max-width: 90%;
-    gap: clamp(1.25rem, calc(-4.71rem + 19.08vw), 7.5rem);
-    /* 120-20px */
+    gap: clamp(1.25rem, calc(-4.71rem + 19.08vw), 7.5rem); /* 120-20px */
   }
 
   .vases-mag__text {
-    font-size: clamp(0.75rem, calc(0.51rem + 0.76vw), 1rem);
-    /* 16-12px */
-    line-height: clamp(1.13rem, calc(0.83rem + 0.95vw), 1.44rem);
-    /* 23-18px */
-    margin-bottom: clamp(0.63rem, calc(-1.76rem + 7.63vw), 3.13rem);
-    /* 50-10px */
+    font-size: clamp(0.75rem, calc(0.51rem + 0.76vw), 1rem); /* 16-12px */
+    line-height: clamp(1.13rem, calc(0.83rem + 0.95vw), 1.44rem); /* 23-18px */
+    margin-bottom: clamp(
+      0.63rem,
+      calc(-1.76rem + 7.63vw),
+      3.13rem
+    ); /* 50-10px */
   }
 
   .vases-mag__logo-img {
-    margin-bottom: clamp(0.63rem, calc(-0.27rem + 2.86vw), 1.56rem);
-    /* 25-10px */
+    margin-bottom: clamp(
+      0.63rem,
+      calc(-0.27rem + 2.86vw),
+      1.56rem
+    ); /* 25-10px */
   }
 
   .vases-mag__site {
-    font-size: clamp(1rem, calc(0.64rem + 1.15vw), 1.38rem);
-    /* 22-16px */
+    font-size: clamp(1rem, calc(0.64rem + 1.15vw), 1.38rem); /* 22-16px */
   }
 
   /* section news ************************* */
@@ -97,33 +100,28 @@
   }
 
   .news__subtitle {
-    font-size: clamp(1.38rem, calc(1.02rem + 1.15vw), 1.75rem);
-    /* 28-22 */
+    font-size: clamp(1.38rem, calc(1.02rem + 1.15vw), 1.75rem); /* 28-22 */
   }
 
   .page__price,
   .news__date {
-    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem);
-    /* 18-16 */
+    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem); /* 18-16 */
   }
 
   .page__paragraph,
   .news__paragraph {
-    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
-    /* 16-14px */
+    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem); /* 16-14px */
   }
 
   /* section page ************************* */
   .page__picture {
     /* min-height: clamp(18.75rem, calc(-9.37rem + 58.59vw), 28.13rem); */
     /* 450-300px */
-    padding: clamp(3.13rem, calc(-0.62rem + 7.81vw), 4.38rem);
-    /* 70-50px */
+    padding: clamp(3.13rem, calc(-0.62rem + 7.81vw), 4.38rem); /* 70-50px */
   }
 
   .footer__social-link {
-    width: clamp(1.5rem, calc(1.14rem + 1.15vw), 1.88rem);
-    /* 30-24px */
+    width: clamp(1.5rem, calc(1.14rem + 1.15vw), 1.88rem); /* 30-24px */
   }
 }
 
@@ -263,7 +261,6 @@
   .menu__details-content p:first-child {
     margin-top: 0;
   }
-
   /* accordion end */
 
   .header.open .menu {
@@ -322,6 +319,8 @@
   }
 
   .page__picture {
+    /* min-height: 300px;
+    max-width: 350px; */
     min-height: auto;
     padding: clamp(1.88rem, calc(-2.79rem + 14.93vw), 4.38rem);
     /* 70-30px */
@@ -371,7 +370,6 @@
 }
 
 @media (max-width: 500px) {
-
   /* section about ************************* */
   .about__video-wrap {
     margin-bottom: 30px;
