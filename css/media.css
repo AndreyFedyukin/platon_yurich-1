@@ -481,6 +481,10 @@
     align-content: center;
   }
 
+  .spam-3 {
+    display: block;
+  }
+
   /* section contacts ************************* */
   .contacts__social {
     max-width: 50svw;

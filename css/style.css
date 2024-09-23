@@ -36,7 +36,7 @@ img,
 video {
   width: 100%;
   max-width: 100svw;
-  /* height: auto; */
+  height: auto;
   /* max-height: 100svh; */
   object-fit: cover;
   vertical-align: middle;
