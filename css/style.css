@@ -36,8 +36,8 @@ img,
 video {
   width: 100%;
   max-width: 100svw;
-  height: auto;
-  max-height: 100svh;
+  /* height: auto; */
+  /* max-height: 100svh; */
   object-fit: cover;
   vertical-align: middle;
 }
@@ -267,12 +267,12 @@ body {
   z-index: 2;
 }
 
-.switch-button-checkbox:checked + .switch-button-label:before {
+.switch-button-checkbox:checked+.switch-button-label:before {
   transform: translateX(30px);
   transition: transform 300ms linear;
 }
 
-.switch-button-checkbox + .switch-button-label {
+.switch-button-checkbox+.switch-button-label {
   display: block;
   position: relative;
   -webkit-user-select: none;
@@ -282,7 +282,7 @@ body {
   padding: 2px 0;
 }
 
-.switch-button-checkbox + .switch-button-label:before {
+.switch-button-checkbox+.switch-button-label:before {
   width: 100%;
   height: 100%;
   content: "";
@@ -295,7 +295,7 @@ body {
   transition: transform 300ms;
 }
 
-.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+.switch-button-checkbox+.switch-button-label .switch-button-label-span {
   position: relative;
 }
 
@@ -1018,15 +1018,33 @@ hr {
 }
 
 .sculpture__title {
-  align-self: center;
+  margin-bottom: 35px;
+}
+
+.sculpture__picture-main {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.sculpture__main-img {
+  max-width: 400px;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
 }
 
 .sculpture__wrapper {
   width: 100%;
+  max-width: 70%;
+  grid-column-gap: 35%;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .sculpture__box {
   width: 100%;
+  text-align: center;
 }
 
 .sculpture__picture {
@@ -1035,6 +1053,9 @@ hr {
 
 .sculpture__img {
   width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-bottom: 10px;
 }
 
 .sculpture__reference {
