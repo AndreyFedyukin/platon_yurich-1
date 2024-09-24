@@ -79,7 +79,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   padding: 0 clamp(0.94rem, calc(-0.91rem + 5.91vw), 5rem);
   /* max-80px min-15px */
   margin: 0 auto;
@@ -1297,6 +1297,7 @@ hr {
   line-height: 160%;
   font-style: italic;
   letter-spacing: 3px;
+  text-decoration: underline;
   margin-bottom: 30px;
 }
 
