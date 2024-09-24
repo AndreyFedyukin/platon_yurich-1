@@ -110,78 +110,97 @@
     <main class="main">
       <div class="main__wrapper">
 
-        <!-- section surrealism ************************* -->
-        <section class="section" aria-label="Surrealism">
+        <!-- section page ************************* -->
+        <section class="section" aria-label="Page">
           <div class="container">
+            <div class="page">
 
-            <div class="case surrealism">
+              <div class="page__wrapper">
 
-              <h2 class="title surrealism__title">
-                Selected surrealism
-              </h2>
+                <picture class="page__picture">
+                  <source srcset="img/sur-3.avif" type="image/avif">
+                  <source srcset="img/sur-3.webp" type="image/webp">
+                  <img class="page__img" src="img/sur-3.jpg" alt="Card img" aria-label="Card image" loading="lazy">
+                </picture>
 
-              <div class="case-wrap surrealism__wrapper block">
-                <!-- первое изображение -->
-                <a class="case-box surrealism__box item-1" href="page-surrealism-1.html">
-                  <picture class="pattern surrealism__picture js-open-img">
-                    <source srcset="img/sur-1.avif" type="image/avif">
-                    <source srcset="img/sur-1.webp" type="image/webp">
-                    <img class="image surrealism__img" src="img/sur-1.jpg" width="415" height="553" alt="Surrealism"
-                      aria-label="surrealism">
-                  </picture>
+                <div class="page__info">
+                  <h3 class="page__title">
+                    Brad Pitt from Fight Club, 1998
+                  </h3>
 
-                  <p class="reference surrealism__reference">
-                    Lorem, ipsum dolor. 2024
+                  <p class="page__price">
+                    $10,000 USD
                   </p>
-                </a>
 
-                <!-- второе изображение -->
-                <a class="case-box surrealism__box item-1" href="page-surrealism-2.html">
-                  <picture class="pattern surrealism__picture js-open-img">
-                    <source srcset="img/sur-2.avif" type="image/avif">
-                    <source srcset="img/sur-2.webp" type="image/webp">
-                    <img class="image surrealism__img" src="img/sur-2.jpg" width="415" height="553" alt="surrealism"
-                      aria-label="surrealism">
-                  </picture>
+                  <button class="btn page__open-btn js-open-form">
+                    Contact us for availability
+                  </button>
 
-                  <p class="reference surrealism__reference">
-                    Lorem, ipsum dolor. 2024
-                  </p>
-                </a>
+                  <div class="page__box">
+                    <h4 class="page__box-title">
+                      Brad Pitt from Fight Club, Los Angeles, 17
+                    </h4>
 
-                <!-- третье изображение -->
-                <a class="case-box surrealism__box item-1" href="page-surrealism-3.html">
-                  <picture class="pattern surrealism__picture js-open-img">
-                    <source srcset="img/sur-3.avif" type="image/avif">
-                    <source srcset="img/sur-3.webp" type="image/webp">
-                    <img class="image surrealism__img" src="img/sur-3.jpg" width="415" height="553" alt="surrealism"
-                      aria-label="surrealism">
-                  </picture>
+                    <p class="page__date">
+                      December 1998
+                    </p>
 
-                  <p class="reference surrealism__reference">
-                    Lorem, ipsum dolor. 2024
-                  </p>
-                </a>
+                    <p class="page__compound">
+                      Unique color polaroid 4x5 print
+                    </p>
 
-                <!-- четвертое изображение -->
-                <a class="case-box surrealism__box item-1" href="page-surrealism-4.html">
-                  <picture class="pattern surrealism__picture js-open-img">
-                    <source srcset="img/sur-4.avif" type="image/avif">
-                    <source srcset="img/sur-4.webp" type="image/webp">
-                    <img class="image surrealism__img" src="img/sur-4.jpg" width="415" height="553" alt="surrealism"
-                      aria-label="surrealism">
-                  </picture>
+                    <p class="page__frame">
+                      Frame: 20 1/4 x 18 inches
+                    </p>
 
-                  <p class="reference surrealism__reference">
-                    Lorem, ipsum dolor. 2024
-                  </p>
-                </a>
+                    <p class="page__gen">
+                      Signed in ink on the verso
+                    </p>
+
+                    <p class="page__literature">
+                      "Brad Pitt Unleashed", W, July 1999
+                    </p>
+                  </div>
+
+                  <div class="page__description">
+                    <h4 class="page__description-title">
+                      Literature:
+                    </h4>
+
+                    <p class="page__paragraph">
+                      "Brad Pitt Unleashed", W, July 1999
+                    </p>
+                  </div>
+                </div>
+
+                <!-- окно для отправки сообщения на почту -->
+                <div class="modal form__modal js-modal-form">
+                  <div class="modal__box">
+                    <div class="notice">
+                      <h2 class="notice__title">Направить запрос</h2>
+
+                      <hr>
+
+                      <div class="notice__group-btn">
+                        <a href="mailto:platon.yurich@bk.ru" class="notice__mail" aria-label="E-mail">
+                          Напишите мне, чтобы узнать о наличии
+                        </a>
+
+                        <a href="page-surrealism-3.html" class="notice__back" aria-label="Back">
+                          Вернуться назад
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
               </div>
 
-              <button class="btn surrealism__btn" onclick="showMore()">
-                Learn more&nbsp;&rarr;
-              </button>
+              <form class="page__back" action="surrealism.html">
+                <button class="btn" type="submit">
+                  &larr;&emsp;Продолжить покупки
+                </button>
+              </form>
 
             </div>
           </div>
