@@ -4,30 +4,22 @@
   .case,
   .contacts,
   .page {
-    padding-top: clamp(1.25rem, calc(-0.54rem + 5.73vw), 3.13rem);
-    /* 50-20px */
+    padding-top: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
+    /* 50-30px */
   }
 
+  hr,
   .about,
   .case,
-  .news,
-  .contacts,
-  .page {
-    padding-bottom: clamp(1.25rem,
-        calc(-0.54rem + 5.73vw),
-        3.13rem);
-    /* 50-20px */
-  }
-
-  .title,
-  hr,
   .case-wrap,
+  .page,
+  .title,
   .vases-mag,
-  .vases-info__title {
-    margin-bottom: clamp(1.25rem,
-        calc(-0.54rem + 5.73vw),
-        3.13rem);
-    /* 50-20px */
+  .vases-info__title,
+  .news,
+  .contacts {
+    margin-bottom: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
+    /* 50-30px */
   }
 
   /* section content ************************* */
@@ -415,6 +407,10 @@
     margin-bottom: 70px;
   }
 
+  .paintings__picture {
+    max-height: 300px;
+  }
+
   .paintings__modal-subtitle {
     margin-bottom: 10px;
   }
@@ -428,6 +424,10 @@
   }
 
   /* section surrealism ************************* */
+  .surrealism {
+    margin-bottom: 50px;
+  }
+
   .surrealism__title {
     text-align: center;
   }

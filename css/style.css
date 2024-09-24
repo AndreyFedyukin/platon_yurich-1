@@ -508,7 +508,8 @@ details summary::-webkit-details-marker {
   flex-wrap: nowrap;
   /* align-items: start; */
   justify-content: space-between;
-  padding: 50px 0px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -707,7 +708,8 @@ hr {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  padding: 50px 0px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .case-wrap {
@@ -1188,7 +1190,7 @@ hr {
 /* section news ************************* */
 .news {
   width: 100%;
-  padding: 50px 0px;
+  margin-bottom: 50px;
 }
 
 .news__wrapper {
