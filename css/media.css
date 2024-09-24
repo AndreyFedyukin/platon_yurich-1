@@ -411,6 +411,10 @@
   }
 
   /* section paintings ************************* */
+  .paintings__wrapper {
+    margin-bottom: 70px;
+  }
+
   .paintings__modal-subtitle {
     margin-bottom: 10px;
   }
