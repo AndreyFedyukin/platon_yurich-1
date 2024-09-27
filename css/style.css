@@ -795,6 +795,7 @@ hr {
   justify-content: center;
   /* aspect-ratio: 4/3; */
   background-color: var(--color-bg-page);
+  overflow: hidden;
   padding: 70px;
 }
 
@@ -808,7 +809,7 @@ hr {
   margin: 0;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
   }
 }
 
