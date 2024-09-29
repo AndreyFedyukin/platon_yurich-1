@@ -225,7 +225,6 @@
   .menu__details {
     display: block;
     position: relative;
-    background: rgba(255, 255, 255, 0.5);
     transition: 0.3s;
     overflow: hidden;
   }
@@ -243,6 +242,7 @@
     transform: rotate(45deg);
     transform-origin: center;
     transition: 0.3s;
+    z-index: -1;
   }
 
   .menu__details[open]::after {
@@ -253,11 +253,11 @@
     padding-bottom: 80px;
   }
 
-  .menu__details[open] .menu__details-title {
+  .menu__details[open] .menu__link-details {
     margin-bottom: 20px;
   }
 
-  .menu__details-title::-webkit-details-marker {
+  .menu__link-details::-webkit-details-marker {
     display: none;
   }
 
