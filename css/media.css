@@ -151,15 +151,7 @@
   }
 
   .header__burger {
-    display: block;
-  }
-
-  .empty-block {
-    display: none;
-  }
-
-  .switch-button {
-    width: 24px;
+    visibility: visible;
   }
 
   .menu {

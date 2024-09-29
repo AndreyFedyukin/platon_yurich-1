@@ -63,6 +63,26 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+//! кнопка смены языка ***************************
+// Получаем кнопку по её идентификатору
+const buttonLanguage = document.getElementById("language");
+let originalText;
+
+// Добавляем обработчик события 'click'
+buttonLanguage.addEventListener("click", function () {
+  if (!originalText) {
+    // Сохраняем текущее название кнопки
+    originalText = this.textContent;
+    // Меняем текст кнопки на новый
+    this.textContent = "Ru";
+  } else {
+    // Возвращаем прежнее название кнопки
+    this.textContent = originalText;
+    // Сбрасываем оригинальное название, чтобы можно было изменить его снова
+    originalText = undefined;
+  }
+});
+
 //! Модальное окно для видео ***************************
 const modalVideo = document.querySelectorAll(".js-modal-video");
 const video = document.querySelectorAll(".my-video");
