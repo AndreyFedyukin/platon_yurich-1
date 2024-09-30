@@ -300,11 +300,16 @@
   .page__figure {
     cursor: default;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   .page__img:hover {
     opacity: 1;
+  }
+
+  .page__info {
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   /* section paintings ************************* */
