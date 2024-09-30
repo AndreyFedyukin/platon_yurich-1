@@ -298,9 +298,12 @@
   }
 
   .page__figure {
+    margin-bottom: 40px;
+  }
+
+  .page__picture {
     cursor: default;
     margin: 0 auto;
-    margin-bottom: 40px;
   }
 
   .page__img:hover {
