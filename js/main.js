@@ -189,7 +189,7 @@ modalImg.forEach((element) => {
 });
 
 //! Зум картинок в page ***************************
-function zoom(e) {
+async function zoom(e) {
   let zoomed = e.currentTarget;
   let offsetX, offsetY;
   if (e.offsetX) {
