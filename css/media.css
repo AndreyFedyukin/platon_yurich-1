@@ -293,6 +293,13 @@
   }
 
   /* section page ************************* */
+  .page__figure {
+    cursor: default;
+  }
+
+  .page__img:hover {
+    opacity: 1;
+  }
 
   /* section paintings ************************* */
 
