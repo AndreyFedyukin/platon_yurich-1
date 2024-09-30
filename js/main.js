@@ -64,21 +64,15 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //! кнопка смены языка ***************************
-// Получаем кнопку по её идентификатору
 const buttonLanguage = document.getElementById("language");
 let originalText;
 
-// Добавляем обработчик события 'click'
 buttonLanguage.addEventListener("click", function () {
   if (!originalText) {
-    // Сохраняем текущее название кнопки
     originalText = this.textContent;
-    // Меняем текст кнопки на новый
     this.textContent = "Ru";
   } else {
-    // Возвращаем прежнее название кнопки
     this.textContent = originalText;
-    // Сбрасываем оригинальное название, чтобы можно было изменить его снова
     originalText = undefined;
   }
 });
@@ -193,6 +187,29 @@ modalImg.forEach((element) => {
     bodyImg.dataset.position = "";
   });
 });
+
+//! Зум картинок в page ***************************
+function zoom(e) {
+  let zoomed = e.currentTarget;
+  let offsetX, offsetY;
+  if (e.offsetX) {
+    offsetX = e.offsetX;
+  } else if (e.touches && e.touches[0]) {
+    offsetX = e.touches[0].pageX;
+  } else {
+    return;
+  }
+  if (e.offsetY) {
+    offsetY = e.offsetY;
+  } else if (e.touches && e.touches[0]) {
+    offsetY = e.touches[0].pageY;
+  } else {
+    return;
+  }
+  let x = offsetX / zoomed.offsetWidth * 100;
+  let y = offsetY / zoomed.offsetHeight * 100;
+  zoomed.style.backgroundPosition = x + '% ' + y + '%';
+}
 
 //! Форма обратной связи ***************************
 const modalForms = document.querySelectorAll(".js-modal-form");

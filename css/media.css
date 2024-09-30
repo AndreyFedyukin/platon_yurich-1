@@ -12,8 +12,8 @@
   .about,
   .case,
   .case-wrap,
-  .page,
   .title,
+  .page__back,
   .vases-mag,
   .vases-info__title,
   .news,
@@ -53,9 +53,7 @@
   .page__title,
   .page__price,
   .page__paragraph {
-    margin-bottom: clamp(0.63rem,
-        calc(0.03rem + 1.91vw),
-        1.25rem);
+    margin-bottom: clamp(0.63rem, calc(0.03rem + 1.91vw), 1.25rem);
     /* 20-10px */
   }
 
@@ -78,16 +76,12 @@
     /* 16-12px */
     line-height: clamp(1.13rem, calc(0.83rem + 0.95vw), 1.44rem);
     /* 23-18px */
-    margin-bottom: clamp(0.63rem,
-        calc(-1.76rem + 7.63vw),
-        3.13rem);
+    margin-bottom: clamp(0.63rem, calc(-1.76rem + 7.63vw), 3.13rem);
     /* 50-10px */
   }
 
   .vases-mag__logo-img {
-    margin-bottom: clamp(0.63rem,
-        calc(-0.27rem + 2.86vw),
-        1.56rem);
+    margin-bottom: clamp(0.63rem, calc(-0.27rem + 2.86vw), 1.56rem);
     /* 25-10px */
   }
 
@@ -299,9 +293,6 @@
   }
 
   /* section page ************************* */
-  .page {
-    width: 100%;
-  }
 
   /* section paintings ************************* */
 
