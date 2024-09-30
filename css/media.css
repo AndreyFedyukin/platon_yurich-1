@@ -13,6 +13,7 @@
   .case,
   .case-wrap,
   .title,
+  .page__wrapper,
   .page__back,
   .vases-mag,
   .vases-info__title,
@@ -51,8 +52,7 @@
   }
 
   .page__title,
-  .page__price,
-  .page__paragraph {
+  .page__price {
     margin-bottom: clamp(0.63rem, calc(0.03rem + 1.91vw), 1.25rem);
     /* 20-10px */
   }
@@ -293,8 +293,14 @@
   }
 
   /* section page ************************* */
+  .page__wrapper {
+    flex-direction: column;
+  }
+
   .page__figure {
     cursor: default;
+    margin: 0 auto;
+    margin-bottom: 50px;
   }
 
   .page__img:hover {
@@ -366,12 +372,10 @@
   }
 
   .page__wrapper {
-    flex-direction: column;
     margin-bottom: 30px;
   }
 
   .page__figure {
-    margin: 0;
     margin-bottom: 30px;
   }
 
