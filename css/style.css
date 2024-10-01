@@ -1244,7 +1244,8 @@ hr {
 /* section contact ************************* */
 .contacts {
   width: 100%;
-  padding: 50px 0px;
+  height: calc(100svh - 220px);
+  display: grid;
 }
 
 .contacts__wrapper {
@@ -1253,6 +1254,7 @@ hr {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+  margin: auto;
 }
 
 .contacts__subtitle {
@@ -1261,7 +1263,7 @@ hr {
   font-family: "Roboto";
   font-family: "Ubuntu";
   font-family: "Open Sans";
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 700;
   line-height: 160%;
   letter-spacing: 2px;
@@ -1279,12 +1281,12 @@ hr {
   font-style: italic;
   letter-spacing: 3px;
   text-decoration: underline;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .contacts__picture {
   max-width: 500px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .contacts__social {

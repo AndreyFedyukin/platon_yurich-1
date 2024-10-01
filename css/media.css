@@ -2,7 +2,6 @@
 
   .about,
   .case,
-  .contacts,
   .page {
     padding-top: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
     /* 50-30px */
@@ -17,8 +16,7 @@
   .page__back,
   .vases-mag,
   .vases-info__title,
-  .news,
-  .contacts {
+  .news {
     margin-bottom: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
     /* 50-30px */
   }
@@ -334,6 +332,20 @@
   }
 
   /* section contacts ************************* */
+  .contacts {
+    height: calc(100svh - 160px);
+  }
+
+  .contacts__subtitle {
+    font-size: clamp(0.88rem, calc(0.64rem + 0.75vw), 1rem);
+    /* 16-14px */
+  }
+
+  .contacts__mail {
+    font-size: clamp(0.75rem, calc(0.52rem + 0.75vw), 0.88rem);
+    /* 14-12px */
+    margin-bottom: 50px;
+  }
 
   /* section plug ************************* */
   .plug__wrapper {
