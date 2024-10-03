@@ -105,12 +105,15 @@
             <div class="page">
               <div class="page__wrapper">
 
-                <figure class="page__figure">
-                  <picture class="page__picture zoom" onmousemove="zoom(event)"
-                    style="background-image: url(./img/pain-2.jpg);">
-                    <img class="page__img" src="img/pain-2.jpg" alt="Card img" aria-label="Card image" loading="lazy">
-                  </picture>
-                </figure>
+                <div class="page__gallery" id="my-gallery">
+                  <div class="page__zoomed zoomed-image"></div>
+
+                  <div class="page__gallery-box">
+                    <img class="page__preview small-preview" src="img/test.JPG" alt="Image Preview">
+                    <img class="page__preview small-preview" src="img/pain-2.jpg" alt="Image Preview">
+                    <img class="page__preview small-preview" src="img/news-4.jpg" alt="Image Preview">
+                  </div>
+                </div>
 
                 <div class="page__info">
                   <h3 class="page__title">Brad Pitt from Fight Club, 1998</h3>
@@ -210,6 +213,7 @@
   </div>
 
   <script src="js/main.js"></script>
+  <script src="js/vanilla-zoom.js"></script>
 </body>
 
 </html>

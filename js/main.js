@@ -189,27 +189,7 @@ modalImg.forEach((element) => {
 });
 
 //! Зум картинок в page ***************************
-async function zoom(e) {
-  let zoomed = e.currentTarget;
-  let offsetX, offsetY;
-  if (e.offsetX) {
-    offsetX = e.offsetX;
-  } else if (e.touches && e.touches[0]) {
-    offsetX = e.touches[0].pageX;
-  } else {
-    return;
-  }
-  if (e.offsetY) {
-    offsetY = e.offsetY;
-  } else if (e.touches && e.touches[0]) {
-    offsetY = e.touches[0].pageY;
-  } else {
-    return;
-  }
-  let x = offsetX / zoomed.offsetWidth * 100;
-  let y = offsetY / zoomed.offsetHeight * 100;
-  zoomed.style.backgroundPosition = x + '% ' + y + '%';
-}
+
 
 //! Форма обратной связи ***************************
 const modalForms = document.querySelectorAll(".js-modal-form");

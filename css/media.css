@@ -295,17 +295,8 @@
     flex-direction: column;
   }
 
-  .page__figure {
+  .page__gallery {
     margin-bottom: 40px;
-  }
-
-  .page__picture {
-    cursor: default;
-    margin: 0 auto;
-  }
-
-  .page__img:hover {
-    opacity: 1;
   }
 
   .page__info {
@@ -395,7 +386,7 @@
     margin-bottom: 30px;
   }
 
-  .page__figure {
+  .page__gallery {
     margin-bottom: 30px;
   }
 
