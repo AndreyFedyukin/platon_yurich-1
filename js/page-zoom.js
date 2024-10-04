@@ -65,7 +65,7 @@
     window.vanillaZoom = define_library();
   }
   else {
-    console.log("Library already defined.");
+    console.log("Библиотека уже определена.");
   }
 })(window);
 
