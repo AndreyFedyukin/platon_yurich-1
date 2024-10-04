@@ -60,4 +60,4 @@ else {
   console.log("Библиотека уже определена.");
 }
 
-new VanillaZoom('#my-gallery');
+new VanillaZoom('.my-gallery');
