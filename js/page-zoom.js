@@ -40,15 +40,15 @@
 
       zoomedImage.addEventListener('mousemove', function (e) {
 
-        var dimentions = this.getBoundingClientRect();
+        var dimensions = this.getBoundingClientRect();
 
-        var x = e.clientX - dimentions.left;
-        var y = e.clientY - dimentions.top;
+        var x = e.clientX - dimensions.left;
+        var y = e.clientY - dimensions.top;
 
-        var xpercent = Math.round(100 / (dimentions.width / x));
-        var ypercent = Math.round(100 / (dimentions.height / y));
+        var xPercent = Math.round(100 / (dimensions.width / x));
+        var yPercent = Math.round(100 / (dimensions.height / y));
 
-        this.style.backgroundPosition = xpercent + '% ' + ypercent + '%';
+        this.style.backgroundPosition = xPercent + '% ' + yPercent + '%';
 
       }, false);
 
