@@ -2,19 +2,19 @@ class VanillaZoom {
   constructor(el) {
     this.container = document.querySelector(el);
     if (!this.container) {
-      console.error('Нет элемента контейнера. Убедитесь, что вы используете правильную разметку.');
+      console.error('Нет элемента контейнера!!!');
       return;
     }
 
     this.zoomedImage = this.container.querySelector('.zoomed-image');
     if (!this.zoomedImage) {
-      console.error('Нет элемента увеличенного изображения. Убедитесь, что вы используете правильную разметку.');
+      console.error('Нет элемента увеличенного изображения!!!');
       return;
     }
 
     this.smallImages = Array.from(this.container.querySelectorAll('.small-preview'));
     if (!this.smallImages.length) {
-      console.error('Нет предварительных изображений на странице. Убедитесь, что вы используете правильную разметку.');
+      console.error('Нет предварительных изображений на странице!!!');
       return;
     }
     else {
@@ -57,7 +57,7 @@ if (typeof (VanillaZoom) === 'undefined') {
   window.VanillaZoom = VanillaZoom;
 }
 else {
-  console.log("Библиотека уже определена.");
+  console.log("Библиотека определена.");
 }
 
 new VanillaZoom('.my-gallery');
