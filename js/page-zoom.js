@@ -61,3 +61,43 @@ else {
 }
 
 new VanillaZoom('.my-gallery');
+
+//! Форма обратной связи ***************************
+const modalForms = document.querySelectorAll(".js-modal-form");
+const openForms = document.querySelectorAll(".js-open-form");
+const closeForms = document.querySelectorAll(".js-close-form");
+
+openForms.forEach((button, index) => {
+  button.addEventListener("click", () => {
+    modalForms[index].classList.add("open");
+  });
+});
+
+closeForms.forEach((button) => {
+  button.addEventListener("click", (e) => {
+    const target = e.target.closest(".js-modal-form");
+    if (target) {
+      const index = Array.from(modalForms).indexOf(target);
+      modalForms[index].classList.remove("open");
+    }
+  });
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    modalForms.forEach((element) => {
+      if (element.classList.contains("open")) {
+        const index = Array.from(modalForms).indexOf(element);
+        modalForms[index].classList.remove("open");
+      }
+    });
+  }
+});
+
+modalForms.forEach((element) => {
+  element.addEventListener("click", (e) => {
+    if (e.target !== e.currentTarget) return;
+    const index = Array.from(modalForms).indexOf(element);
+    modalForms[index].classList.remove("open");
+  });
+});
