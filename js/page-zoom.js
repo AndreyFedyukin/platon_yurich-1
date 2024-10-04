@@ -1,72 +1,63 @@
-(function (window) {
-  function define_library() {
-    var vanillaZoom = {};
-    vanillaZoom.init = function (el) {
-
-      var container = document.querySelector(el);
-      if (!container) {
-        console.error('Нет элемента контейнера. Убедитесь, что вы используете правильную разметку.');
-        return;
-      }
-
-      var firstSmallImage = container.querySelector('.small-preview');
-      var zoomedImage = container.querySelector('.zoomed-image');
-
-      if (!zoomedImage) {
-        console.error('Нет элемента увеличенного изображения. Убедитесь, что вы используете правильную разметку.');
-        return;
-      }
-
-      if (!firstSmallImage) {
-        console.error('Нет предварительных изображений на странице. Убедитесь, что вы используете правильную разметку.');
-        return;
-      }
-      else {
-        zoomedImage.style.backgroundImage = 'url(' + firstSmallImage.src + ')';
-      }
-
-      container.addEventListener("click", function (event) {
-        var elem = event.target;
-
-        if (elem.classList.contains("small-preview")) {
-          var imageSrc = elem.src;
-          zoomedImage.style.backgroundImage = 'url(' + imageSrc + ')';
-        }
-      });
-
-      zoomedImage.addEventListener('mouseenter', function (e) {
-        this.style.backgroundSize = "250%";
-      }, false);
-
-      zoomedImage.addEventListener('mousemove', function (e) {
-
-        var dimensions = this.getBoundingClientRect();
-
-        var x = e.clientX - dimensions.left;
-        var y = e.clientY - dimensions.top;
-
-        var xPercent = Math.round(100 / (dimensions.width / x));
-        var yPercent = Math.round(100 / (dimensions.height / y));
-
-        this.style.backgroundPosition = xPercent + '% ' + yPercent + '%';
-
-      }, false);
-
-      zoomedImage.addEventListener('mouseleave', function (e) {
-        this.style.backgroundSize = "cover";
-        this.style.backgroundPosition = "center";
-      }, false);
-
+class VanillaZoom {
+  constructor(el) {
+    this.container = document.querySelector(el);
+    if (!this.container) {
+      console.error('Нет элемента контейнера. Убедитесь, что вы используете правильную разметку.');
+      return;
     }
-    return vanillaZoom;
-  }
 
-  if (typeof (vanillaZoom) === 'undefined') {
-    window.vanillaZoom = define_library();
-  }
-  else {
-    console.log("Библиотека уже определена.");
-  }
-})(window);
+    this.zoomedImage = this.container.querySelector('.zoomed-image');
+    if (!this.zoomedImage) {
+      console.error('Нет элемента увеличенного изображения. Убедитесь, что вы используете правильную разметку.');
+      return;
+    }
 
-vanillaZoom.init('#my-gallery');
+    this.smallImages = Array.from(this.container.querySelectorAll('.small-preview'));
+    if (!this.smallImages.length) {
+      console.error('Нет предварительных изображений на странице. Убедитесь, что вы используете правильную разметку.');
+      return;
+    }
+    else {
+      this.zoomedImage.style.backgroundImage = `url(${this.smallImages[0].src})`;
+    }
+
+    this.container.addEventListener("click", (event) => {
+      const elem = event.target;
+
+      if (elem.classList.contains("small-preview")) {
+        const imageSrc = elem.src;
+        this.zoomedImage.style.backgroundImage = `url(${imageSrc})`;
+      }
+    });
+
+    this.zoomedImage.addEventListener('mouseenter', (e) => {
+      this.zoomedImage.style.backgroundSize = "250%";
+    }, false);
+
+    this.zoomedImage.addEventListener('mousemove', (e) => {
+      const dimensions = this.zoomedImage.getBoundingClientRect();
+
+      const x = e.clientX - dimensions.left;
+      const y = e.clientY - dimensions.top;
+
+      const xPercent = Math.round(100 / (dimensions.width / x));
+      const yPercent = Math.round(100 / (dimensions.height / y));
+
+      this.zoomedImage.style.backgroundPosition = `${xPercent}% ${yPercent}%`;
+    }, false);
+
+    this.zoomedImage.addEventListener('mouseleave', (e) => {
+      this.zoomedImage.style.backgroundSize = "cover";
+      this.zoomedImage.style.backgroundPosition = "center";
+    }, false);
+  }
+}
+
+if (typeof (VanillaZoom) === 'undefined') {
+  window.VanillaZoom = VanillaZoom;
+}
+else {
+  console.log("Библиотека уже определена.");
+}
+
+new VanillaZoom('#my-gallery');
