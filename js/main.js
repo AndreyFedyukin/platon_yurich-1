@@ -1,4 +1,4 @@
-//! Скролл для подменю ***************************
+//! Скроллинг для подменю ***************************
 let lastScroll = 0;
 const defaultOffset = 30;
 const submenu = document.querySelector(".js-submenu");
