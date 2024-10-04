@@ -24,8 +24,8 @@ window.addEventListener("scroll", () => {
 });
 
 //! Подсветка меню ***************************
-let a = document.querySelectorAll('.navbar-menu')
-a.forEach((el) => {
+let ref = document.querySelectorAll('.navbar-menu')
+ref.forEach((el) => {
   if (el.getAttribute('href') == window.location.pathname) el.classList.add('backlight')
 })
 
