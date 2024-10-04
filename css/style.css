@@ -287,16 +287,25 @@ body {
 }
 
 .menu__link::after {
-  content: "";
-  display: block;
   width: 0;
   height: 1px;
+  content: "";
+  display: block;
   background: var(--color-hover-menu);
-  transition: width 0.5s;
+  transition: width 0.7s;
 }
 
 .menu__link:hover::after {
   width: 100%;
+}
+
+.backlight::after {
+  width: 100%;
+  height: 1px;
+  content: "";
+  display: block;
+  background: var(--color-hover-menu);
+  transition: width 0.7s;
 }
 
 .menu__link-details {
@@ -338,7 +347,7 @@ body {
   width: 0;
   height: 1px;
   background: var(--color-hover-menu);
-  transition: width 0.5s;
+  transition: width 0.7s;
 }
 
 .menu__link-name:hover::after {
@@ -421,7 +430,7 @@ body {
   content: "";
   display: block;
   background: var(--color-hover-menu);
-  transition: width 0.5s;
+  transition: width 0.7s;
 }
 
 .menu__submenu-link:hover::after {

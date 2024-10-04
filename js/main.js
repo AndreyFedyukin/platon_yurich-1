@@ -23,6 +23,12 @@ window.addEventListener("scroll", () => {
   lastScroll = scrollPosition();
 });
 
+//! Подсветка меню ***************************
+let a = document.querySelectorAll('.navbar-menu')
+a.forEach((el) => {
+  if (el.getAttribute('href') == window.location.pathname) el.classList.add('backlight')
+})
+
 //! Бургер ***************************
 document.addEventListener("DOMContentLoaded", () => {
   const headerBurger = document.querySelector(".header");
