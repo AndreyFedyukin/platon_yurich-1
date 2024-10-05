@@ -200,8 +200,6 @@ body {
 
 .header__logo {
   color: var(--color-text);
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-weight: 500;
   font-size: 18px;
@@ -263,8 +261,6 @@ body {
   width: min-content;
   display: block;
   color: var(--color-text);
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
@@ -473,8 +469,6 @@ details summary::-webkit-details-marker {
   top: 50%;
   left: 50%;
   color: var(--color-bg);
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-weight: 500;
   font-size: clamp(2.5rem, calc(1.1rem + 4.47vw), 5.13rem);
@@ -497,8 +491,6 @@ details summary::-webkit-details-marker {
 
 .title {
   color: var(--color-text);
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-size: 34px;
   font-weight: 600;
@@ -531,8 +523,6 @@ details summary::-webkit-details-marker {
 .about__quote {
   width: 100%;
   max-width: 500px;
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
@@ -572,8 +562,6 @@ details summary::-webkit-details-marker {
 
 .about__text {
   color: var(--color-text);
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 16px;
@@ -734,8 +722,6 @@ hr {
 }
 
 .reference {
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-weight: 500;
   font-size: 18px;
@@ -1214,8 +1200,6 @@ hr {
 }
 
 .news__subtitle {
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 28px;
@@ -1224,8 +1208,6 @@ hr {
 }
 
 .news__date {
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-weight: 500;
   font-size: 18px;
@@ -1234,8 +1216,6 @@ hr {
 }
 
 .news__paragraph {
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 16px;
@@ -1267,8 +1247,6 @@ hr {
 .contacts__subtitle {
   color: var(--color-hover-menu);
   text-transform: uppercase;
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 700;
@@ -1279,8 +1257,6 @@ hr {
 
 .contacts__mail {
   text-transform: uppercase;
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
@@ -1404,8 +1380,6 @@ hr {
 
 .footer__footnote {
   text-transform: uppercase;
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
@@ -1433,8 +1407,6 @@ hr {
 
 .footer__mail {
   text-transform: uppercase;
-  font-family: "Roboto";
-  font-family: "Ubuntu";
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
