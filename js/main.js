@@ -44,7 +44,7 @@ window.addEventListener("scroll", () => {
 //   if (href == pathname) el.classList.add('backlight')
 // })
 
-window.onload = function () {
+window.onload = async function () {
   var links = document.getElementsByClassName('navbar-menu');
   for (var i = 0; i < links.length; i++) {
     var link = links[i];
