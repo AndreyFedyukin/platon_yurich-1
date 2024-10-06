@@ -55,7 +55,7 @@
     /* 20-10px */
   }
 
-  /* section surrealism ************************* */
+  /* section print ************************* */
 
   /* section sculpture ************************* */
   .sculpture__hr {
@@ -302,7 +302,7 @@
 
   /* section paintings ************************* */
 
-  /* section surrealism ************************* */
+  /* section print ************************* */
 
   /* section sculpture ************************* */
 
@@ -407,16 +407,16 @@
     margin-bottom: 10px;
   }
 
-  /* section surrealism ************************* */
-  .surrealism {
+  /* section print ************************* */
+  .print {
     margin-bottom: 50px;
   }
 
-  .surrealism__title {
+  .print__title {
     text-align: center;
   }
 
-  .surrealism__wrapper {
+  .print__wrapper {
     grid-row-gap: 80px;
   }
 

@@ -695,6 +695,7 @@ hr {
 .pattern {
   max-width: 100%;
   height: 100%;
+  /* aspect-ratio: 4 / 3; */
   background-color: var(--color-bg-page);
   margin-bottom: 10px;
 }
@@ -946,28 +947,28 @@ hr {
   margin: 0 auto;
 }
 
-/* section surrealism ************************* */
-.surrealism {
+/* section print ************************* */
+.print {
   width: 100%;
 }
 
-.surrealism__wrapper {
+.print__wrapper {
   width: 100%;
 }
 
-.surrealism__box {
+.print__box {
   width: 100%;
 }
 
-.surrealism__picture {
+.print__picture {
   width: 100%;
 }
 
-.surrealism__img {
+.print__img {
   width: 100%;
 }
 
-.surrealism__reference {
+.print__reference {
   font-weight: 600;
   text-align: center;
 }
