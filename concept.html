@@ -56,7 +56,12 @@
                     </summary>
                     <ul class="menu__submenu menu__details-content">
                       <li class="menu__submenu-item">
-                        <a class="menu__link menu__submenu-link" href="./surrealism.html" aria-label="Принт">Принт</a>
+                        <a class="menu__link menu__submenu-link navbar-menu" href="./surrealism.html"
+                          aria-label="Принт">Принт</a>
+                      </li>
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link navbar-menu" href="./concept.html"
+                          aria-label="Концепт">Концепт</a>
                       </li>
                       <li class="menu__submenu-item">
                         <a class="menu__link menu__submenu-link" href="./plug.html" aria-label="Reportage">Репортажи</a>
@@ -73,7 +78,7 @@
                     </summary>
                     <ul class="menu__submenu menu__details-content">
                       <li class="menu__submenu-item">
-                        <a class="menu__link menu__submenu-link navbar-menu" href="./sculpture.html"
+                        <a class="menu__link menu__submenu-link" href="./sculpture.html"
                           aria-label="Скульптуры">Скульптуры</a>
                       </li>
                       <li class="menu__submenu-item">
@@ -101,67 +106,53 @@
 
     <main class="main">
       <div class="main__wrapper">
-        <div class="case sculpture">
 
-          <!-- section sculpture ************************* -->
-          <section class="section" aria-label="Sculpture">
-            <div class="container">
+        <!-- section surrealism ************************* -->
+        <section class="section" aria-label="Surrealism">
+          <div class="container">
 
-              <h2 class="title sculpture__title">
-                Скульптуры
+            <div class="case surrealism">
+
+              <h2 class="title surrealism__title">
+                Принт
               </h2>
 
-              <!-- главное изображение -->
-              <picture class="sculpture__picture-main">
-                <source src="./img/sculp-top.avif" type="image/avif">
-                <source src="./img/sculp-top.webp" type="image/webp">
-                <img class="sculpture__main-img" src="./img/sculp-top.jpg" width="415" alt="sculpture"
-                  aria-label="sculpture">
-              </picture>
-
-            </div>
-
-          </section>
-
-          <hr class="sculpture__hr">
-
-          <section class="section" aria-label="Sculpture">
-            <div class="container">
-              <div class="case-wrap sculpture__wrapper">
-
+              <div class="case-wrap surrealism__wrapper block">
                 <!-- первое изображение -->
-                <a class="sculpture__box item-1" href="./page-sculpture-1.html">
-                  <picture class="sculpture__picture js-open-img">
-                    <source src="./img/sculp-1.avif" type="image/avif">
-                    <source src="./img/sculp-1.webp" type="image/webp">
-                    <img class="image sculpture__img" src="./img/sculp-1.jpg" width="415" alt="sculpture"
-                      aria-label="sculpture">
+                <a class="case-box surrealism__box item-1" href="./page-concept-1.html">
+                  <picture class="pattern surrealism__picture js-open-img">
+                    <source src="./img/conc-1-1.jpg" type="image/jpg">
+                    <img class="image surrealism__img" src="./img/conc-1-1.jpg" width="590" height="450"
+                      alt="Surrealism" aria-label="surrealism">
                   </picture>
 
-                  <p class="reference sculpture__reference">
-                    "Старт"
+                  <p class="reference surrealism__reference">
+                    Слезы. 2024
                   </p>
                 </a>
 
                 <!-- второе изображение -->
-                <a class="sculpture__box item-1" href="./page-sculpture-2.html">
-                  <picture class="sculpture__picture js-open-img">
-                    <source src="./img/sculp-2.avif" type="image/avif">
-                    <source src="./img/sculp-2.webp" type="image/webp">
-                    <img class="image sculpture__img" src="./img/sculp-2.jpg" width="415" alt="sculpture"
-                      aria-label="sculpture">
+                <a class="case-box surrealism__box item-1" href="./page-concept-1.html">
+                  <picture class="pattern surrealism__picture js-open-img">
+                    <source src="./img/conc-1-1.jpg" type="image/jpg">
+                    <img class="image surrealism__img" src="./img/conc-1-1.jpg" width="590" height="450"
+                      alt="Surrealism" aria-label="surrealism">
                   </picture>
 
-                  <p class="reference sculpture__reference">
-                    "Идеальное"
+                  <p class="reference surrealism__reference">
+                    Слезы. 2024
                   </p>
                 </a>
 
               </div>
-            </div>
-          </section>
 
-        </div>
+              <!-- <button class="btn surrealism__btn" onclick="showMore()">
+                Learn more&nbsp;&rarr;
+              </button> -->
+
+            </div>
+          </div>
+        </section>
 
       </div>
     </main>

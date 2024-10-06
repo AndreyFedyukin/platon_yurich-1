@@ -59,6 +59,10 @@
                         <a class="menu__link menu__submenu-link" href="./surrealism.html" aria-label="Принт">Принт</a>
                       </li>
                       <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link navbar-menu" href="./concept.html"
+                          aria-label="Концепт">Концепт</a>
+                      </li>
+                      <li class="menu__submenu-item">
                         <a class="menu__link menu__submenu-link" href="./plug.html" aria-label="Reportage">Репортажи</a>
                       </li>
                     </ul>
@@ -73,7 +77,7 @@
                     </summary>
                     <ul class="menu__submenu menu__details-content">
                       <li class="menu__submenu-item">
-                        <a class="menu__link menu__submenu-link navbar-menu" href="./sculpture.html"
+                        <a class="menu__link menu__submenu-link" href="./sculpture.html"
                           aria-label="Скульптуры">Скульптуры</a>
                       </li>
                       <li class="menu__submenu-item">
@@ -101,67 +105,104 @@
 
     <main class="main">
       <div class="main__wrapper">
-        <div class="case sculpture">
 
-          <!-- section sculpture ************************* -->
-          <section class="section" aria-label="Sculpture">
-            <div class="container">
+        <!-- section page ************************* -->
+        <section class="section" aria-label="Page">
+          <div class="container">
+            <div class="page">
+              <div class="page__wrapper">
 
-              <h2 class="title sculpture__title">
-                Скульптуры
-              </h2>
+                <div class="page__gallery my-gallery">
+                  <div class="page__zoomed zoomed-image"></div>
 
-              <!-- главное изображение -->
-              <picture class="sculpture__picture-main">
-                <source src="./img/sculp-top.avif" type="image/avif">
-                <source src="./img/sculp-top.webp" type="image/webp">
-                <img class="sculpture__main-img" src="./img/sculp-top.jpg" width="415" alt="sculpture"
-                  aria-label="sculpture">
-              </picture>
+                  <div class="page__gallery-box">
+                    <img class="page__preview small-preview" src="./img/conc-1-1.jpg" alt="Image Preview">
+                    <img class="page__preview small-preview" src="./img/conc-1-2.jpg" alt="Image Preview">
+                  </div>
+                </div>
 
-            </div>
+                <div class="page__info">
+                  <h3 class="page__title">
+                    Brad Pitt from Fight Club, 1998
+                  </h3>
 
-          </section>
-
-          <hr class="sculpture__hr">
-
-          <section class="section" aria-label="Sculpture">
-            <div class="container">
-              <div class="case-wrap sculpture__wrapper">
-
-                <!-- первое изображение -->
-                <a class="sculpture__box item-1" href="./page-sculpture-1.html">
-                  <picture class="sculpture__picture js-open-img">
-                    <source src="./img/sculp-1.avif" type="image/avif">
-                    <source src="./img/sculp-1.webp" type="image/webp">
-                    <img class="image sculpture__img" src="./img/sculp-1.jpg" width="415" alt="sculpture"
-                      aria-label="sculpture">
-                  </picture>
-
-                  <p class="reference sculpture__reference">
-                    "Старт"
+                  <p class="page__price">
+                    $10,000 USD
                   </p>
-                </a>
 
-                <!-- второе изображение -->
-                <a class="sculpture__box item-1" href="./page-sculpture-2.html">
-                  <picture class="sculpture__picture js-open-img">
-                    <source src="./img/sculp-2.avif" type="image/avif">
-                    <source src="./img/sculp-2.webp" type="image/webp">
-                    <img class="image sculpture__img" src="./img/sculp-2.jpg" width="415" alt="sculpture"
-                      aria-label="sculpture">
-                  </picture>
+                  <button class="btn page__open-btn js-open-form">
+                    Contact us for availability
+                  </button>
 
-                  <p class="reference sculpture__reference">
-                    "Идеальное"
-                  </p>
-                </a>
+                  <div class="page__box">
+                    <h4 class="page__box-title">
+                      Brad Pitt from Fight Club, Los Angeles, 17
+                    </h4>
+
+                    <p class="page__date">
+                      December 1998
+                    </p>
+
+                    <p class="page__compound">
+                      Unique color polaroid 4x5 print
+                    </p>
+
+                    <p class="page__frame">
+                      Frame: 20 1/4 x 18 inches
+                    </p>
+
+                    <p class="page__gen">
+                      Signed in ink on the verso
+                    </p>
+
+                    <p class="page__literature">
+                      "Brad Pitt Unleashed", W, July 1999
+                    </p>
+                  </div>
+
+                  <div class="page__description">
+                    <h4 class="page__description-title">
+                      Literature:
+                    </h4>
+
+                    <p class="page__paragraph">
+                      "Brad Pitt Unleashed", W, July 1999
+                    </p>
+                  </div>
+                </div>
+
+                <!-- окно для отправки сообщения на почту -->
+                <div class="modal form__modal js-modal-form">
+                  <div class="modal__box">
+                    <div class="notice">
+                      <h2 class="notice__title">Направить запрос</h2>
+
+                      <hr>
+
+                      <div class="notice__group-btn">
+                        <a href="mailto:platon.yurich@bk.ru" class="notice__mail" aria-label="E-mail">
+                          Напишите мне, чтобы узнать о наличии
+                        </a>
+
+                        <a href="./page-surrealism-1.html" class="notice__back" aria-label="Back">
+                          Вернуться назад
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
               </div>
-            </div>
-          </section>
 
-        </div>
+              <form class="page__back" action="surrealism.html">
+                <button class="btn" type="submit">
+                  &larr;&emsp;Продолжить покупки
+                </button>
+              </form>
+
+            </div>
+          </div>
+        </section>
 
       </div>
     </main>
@@ -198,6 +239,7 @@
   </div>
 
   <script src="./js/main.js"></script>
+  <script src="./js/page-zoom.js"></script>
 </body>
 
 </html>
