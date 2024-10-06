@@ -274,10 +274,6 @@
   }
 
   /* case ************************* */
-  .pattern {
-    padding: clamp(3.13rem, calc(0.79rem + 7.46vw), 4.38rem);
-    /* 70-50px */
-  }
 
   /* section vases ************************* */
   .vases-info__img-1,
