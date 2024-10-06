@@ -108,74 +108,100 @@
     <main class="main">
       <div class="main__wrapper">
 
-        <!-- section print ************************* -->
-        <section class="section" aria-label="print">
+        <!-- section page ************************* -->
+        <section class="section" aria-label="Page">
           <div class="container">
+            <div class="page">
+              <div class="page__wrapper">
 
-            <div class="case print">
+                <div class="page__gallery my-gallery">
+                  <div class="page__zoomed zoomed-image"></div>
 
-              <h2 class="title print__title">
-                Концепт
-              </h2>
+                  <div class="page__gallery-box">
+                    <img class="page__preview small-preview" src="./img/reportage-1-1.jpg" alt="Image Preview">
+                    <img class="page__preview small-preview" src="./img/reportage-1-2.jpg" alt="Image Preview">
+                    <img class="page__preview small-preview" src="./img/reportage-1-3.jpg" alt="Image Preview">
+                  </div>
+                </div>
 
-              <div class="case-wrap print__wrapper block">
-                <!-- первое изображение -->
-                <a class="case-box print__box" href="./page-concept-1.html">
-                  <picture class="pattern print__picture js-open-img">
-                    <source src="./img/concept-1-1.jpg" type="image/jpg">
-                    <img class="image print__img" src="./img/concept-1-1.jpg" width="600" height="450" alt="print"
-                      aria-label="print">
-                  </picture>
+                <div class="page__info">
+                  <h3 class="page__title">
+                    Испания, 2016
+                  </h3>
 
-                  <p class="reference print__reference">
-                    Слезы. 2016
+                  <p class="page__price">
+                    $10,000 USD
                   </p>
-                </a>
 
-                <!-- второе изображение -->
-                <a class="case-box print__box" href="./page-concept-1.html">
-                  <picture class="pattern print__picture js-open-img">
-                    <source src="./img/concept-1-1.jpg" type="image/jpg">
-                    <img class="image print__img" src="./img/concept-1-1.jpg" width="600" height="450" alt="print"
-                      aria-label="print">
-                  </picture>
+                  <button class="btn page__open-btn js-open-form">
+                    Contact us for availability
+                  </button>
 
-                  <p class="reference print__reference">
-                    Слезы. 2016
-                  </p>
-                </a>
+                  <div class="page__box">
+                    <h4 class="page__box-title">
+                      Brad Pitt from Fight Club, Los Angeles, 17
+                    </h4>
 
-                <!-- третье изображение -->
-                <a class="case-box print__box" href="./page-concept-1.html">
-                  <picture class="pattern print__picture js-open-img">
-                    <source src="./img/concept-1-1.jpg" type="image/jpg">
-                    <img class="image print__img" src="./img/concept-1-1.jpg" width="600" height="450" alt="print"
-                      aria-label="print">
-                  </picture>
+                    <p class="page__date">
+                      December 1998
+                    </p>
 
-                  <p class="reference print__reference">
-                    Слезы. 2016
-                  </p>
-                </a>
+                    <p class="page__compound">
+                      Unique color polaroid 4x5 print
+                    </p>
 
-                <!-- четвертое изображение -->
-                <a class="case-box print__box" href="./page-concept-1.html">
-                  <picture class="pattern print__picture js-open-img">
-                    <source src="./img/concept-1-1.jpg" type="image/jpg">
-                    <img class="image print__img" src="./img/concept-1-1.jpg" width="600" height="450" alt="print"
-                      aria-label="print">
-                  </picture>
+                    <p class="page__frame">
+                      Frame: 20 1/4 x 18 inches
+                    </p>
 
-                  <p class="reference print__reference">
-                    Слезы. 2016
-                  </p>
-                </a>
+                    <p class="page__gen">
+                      Signed in ink on the verso
+                    </p>
+
+                    <p class="page__literature">
+                      "Brad Pitt Unleashed", W, July 1999
+                    </p>
+                  </div>
+
+                  <div class="page__description">
+                    <h4 class="page__description-title">
+                      Literature:
+                    </h4>
+
+                    <p class="page__paragraph">
+                      "Brad Pitt Unleashed", W, July 1999
+                    </p>
+                  </div>
+                </div>
+
+                <!-- окно для отправки сообщения на почту -->
+                <div class="modal form__modal js-modal-form">
+                  <div class="modal__box">
+                    <div class="notice">
+                      <h2 class="notice__title">Направить запрос</h2>
+
+                      <hr>
+
+                      <div class="notice__group-btn">
+                        <a href="mailto:platon.yurich@bk.ru" class="notice__mail" aria-label="E-mail">
+                          Напишите мне, чтобы узнать о наличии
+                        </a>
+
+                        <a href="./page-reportage-1.html" class="notice__back" aria-label="Back">
+                          Вернуться назад
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
               </div>
 
-              <!-- <button class="btn print__btn" onclick="showMore()">
-                Learn more&nbsp;&rarr;
-              </button> -->
+              <form class="page__back" action="./reportage.html">
+                <button class="btn" type="submit">
+                  &larr;&emsp;Продолжить покупки
+                </button>
+              </form>
 
             </div>
           </div>
@@ -216,6 +242,7 @@
   </div>
 
   <script src="./js/main.js"></script>
+  <script src="./js/page-zoom.js"></script>
 </body>
 
 </html>

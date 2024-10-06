@@ -947,6 +947,58 @@ hr {
   margin: 0 auto;
 }
 
+/* section reportage ************************* */
+.reportage {
+  width: 100%;
+}
+
+.reportage__wrapper {
+  width: 100%;
+}
+
+.reportage__box {
+  width: 100%;
+}
+
+.reportage__picture {
+  width: 100%;
+}
+
+.reportage__img {
+  width: 100%;
+}
+
+.reportage__reference {
+  font-weight: 600;
+  text-align: center;
+}
+
+/* section concept ************************* */
+.concept {
+  width: 100%;
+}
+
+.concept__wrapper {
+  width: 100%;
+}
+
+.concept__box {
+  width: 100%;
+}
+
+.concept__picture {
+  width: 100%;
+}
+
+.concept__img {
+  width: 100%;
+}
+
+.concept__reference {
+  font-weight: 600;
+  text-align: center;
+}
+
 /* section print ************************* */
 .print {
   width: 100%;

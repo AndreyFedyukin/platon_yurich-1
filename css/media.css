@@ -407,6 +407,20 @@
     margin-bottom: 10px;
   }
 
+  /* section reportage ************************* */
+  .reportage {
+    margin-bottom: 50px;
+  }
+
+  .reportage__title {
+    text-align: center;
+  }
+
+  .reportage__wrapper {
+    grid-row-gap: 80px;
+  }
+
+  /* section concept ************************* */
   /* section print ************************* */
   .print {
     margin-bottom: 50px;
