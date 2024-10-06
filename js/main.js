@@ -24,36 +24,15 @@ window.addEventListener("scroll", () => {
 });
 
 //! Подсветка меню ***************************
-// let ref = document.querySelectorAll('.navbar-menu')
-// ref.forEach((el) => {
-//   if (el.getAttribute('href') == window.location.pathname) el.classList.add('backlight')
-// })
-
-//* Выбираем все элементы с классом 'navbar-menu'
-// let ref = document.querySelectorAll('.navbar-menu')
-
-// ref.forEach((el) => {
-//   let href = el.getAttribute('href')
-
-//   let pathname = window.location.pathname
-
-//   if (href.startsWith('./')) {
-//     href = href.substring(1)
-//   }
-
-//   if (href == pathname) el.classList.add('backlight')
-// })
-
-window.onload = async function () {
-  var links = document.getElementsByClassName('navbar-menu');
-  for (var i = 0; i < links.length; i++) {
-    var link = links[i];
+window.onload = function () {
+  let links = document.querySelectorAll('.navbar-menu');
+  for (let i = 0; i < links.length; i++) {
+    let link = links[i];
     if (link.href === document.location.href) {
       link.classList.add('backlight');
     }
   }
 }
-
 
 //! Бургер ***************************
 document.addEventListener("DOMContentLoaded", () => {
