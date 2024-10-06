@@ -24,18 +24,8 @@ window.addEventListener("scroll", () => {
 });
 
 //! Подсветка меню ***************************
-// window.onload = async function () {
-//   let links = document.querySelectorAll('.navbar-menu');
-//   for (let i = 0; i < links.length; i++) {
-//     let link = links[i];
-//     if (link.href === document.location.href) {
-//       link.classList.add('backlight');
-//     }
-//   }
-// }
-
-window.onload = async function () {
-  let links = document.getElementsByClassName('navbar-menu');
+window.onload = function () {
+  let links = document.querySelectorAll('.navbar-menu');
   for (let i = 0; i < links.length; i++) {
     let link = links[i];
     if (link.href === document.location.href) {
