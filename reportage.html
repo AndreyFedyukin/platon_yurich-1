@@ -108,98 +108,74 @@
     <main class="main">
       <div class="main__wrapper">
 
-        <!-- section page ************************* -->
-        <section class="section" aria-label="Page">
+        <!-- section print ************************* -->
+        <section class="section" aria-label="print">
           <div class="container">
-            <div class="page">
-              <div class="page__wrapper">
 
-                <figure class="page__gallery">
-                  <picture class="page__picture zoom" onmousemove="zoom(event)"
-                    style="background-image: url(./img/sculp-2.jpg);">
-                    <img class="page__img" src="./img/sculp-2.jpg" alt="Card img" aria-label="Card image"
-                      loading="lazy">
+            <div class="case print">
+
+              <h2 class="title print__title">
+                Репортаж
+              </h2>
+
+              <div class="case-wrap print__wrapper block">
+                <!-- первое изображение -->
+                <a class="case-box print__box" href="./page-concept-1.html">
+                  <picture class="pattern print__picture js-open-img">
+                    <source src="./img/concept-1-1.jpg" type="image/jpg">
+                    <img class="image print__img" src="./img/concept-1-1.jpg" width="590" height="450" alt="print"
+                      aria-label="print">
                   </picture>
-                </figure>
 
-                <div class="page__info">
-                  <h3 class="page__title">
-                    Brad Pitt from Fight Club, 1998
-                  </h3>
-
-                  <p class="page__price">
-                    $10,000 USD
+                  <p class="reference print__reference">
+                    Слезы. 2016
                   </p>
+                </a>
 
-                  <button class="btn page__open-btn js-open-form">
-                    Contact us for availability
-                  </button>
+                <!-- второе изображение -->
+                <a class="case-box print__box" href="./page-concept-1.html">
+                  <picture class="pattern print__picture js-open-img">
+                    <source src="./img/concept-1-1.jpg" type="image/jpg">
+                    <img class="image print__img" src="./img/concept-1-1.jpg" width="590" height="450" alt="print"
+                      aria-label="print">
+                  </picture>
 
-                  <div class="page__box">
-                    <h4 class="page__box-title">
-                      Brad Pitt from Fight Club, Los Angeles, 17
-                    </h4>
+                  <p class="reference print__reference">
+                    Слезы. 2016
+                  </p>
+                </a>
 
-                    <p class="page__date">
-                      December 1998
-                    </p>
+                <!-- третье изображение -->
+                <a class="case-box print__box" href="./page-concept-1.html">
+                  <picture class="pattern print__picture js-open-img">
+                    <source src="./img/concept-1-1.jpg" type="image/jpg">
+                    <img class="image print__img" src="./img/concept-1-1.jpg" width="590" height="450" alt="print"
+                      aria-label="print">
+                  </picture>
 
-                    <p class="page__compound">
-                      Unique color polaroid 4x5 print
-                    </p>
+                  <p class="reference print__reference">
+                    Слезы. 2016
+                  </p>
+                </a>
 
-                    <p class="page__frame">
-                      Frame: 20 1/4 x 18 inches
-                    </p>
+                <!-- четвертое изображение -->
+                <a class="case-box print__box" href="./page-concept-1.html">
+                  <picture class="pattern print__picture js-open-img">
+                    <source src="./img/concept-1-1.jpg" type="image/jpg">
+                    <img class="image print__img" src="./img/concept-1-1.jpg" width="590" height="450" alt="print"
+                      aria-label="print">
+                  </picture>
 
-                    <p class="page__gen">
-                      Signed in ink on the verso
-                    </p>
-
-                    <p class="page__literature">
-                      "Brad Pitt Unleashed", W, July 1999
-                    </p>
-                  </div>
-
-                  <div class="page__description">
-                    <h4 class="page__description-title">
-                      Literature:
-                    </h4>
-
-                    <p class="page__paragraph">
-                      "Brad Pitt Unleashed", W, July 1999
-                    </p>
-                  </div>
-                </div>
-
-                <!-- окно для отправки сообщения на почту -->
-                <div class="modal form__modal js-modal-form">
-                  <div class="modal__box">
-                    <div class="notice">
-                      <h2 class="notice__title">Направить запрос</h2>
-
-                      <hr>
-
-                      <div class="notice__group-btn">
-                        <a href="mailto:platon.yurich@bk.ru" class="notice__mail" aria-label="E-mail">
-                          Напишите мне, чтобы узнать о наличии
-                        </a>
-
-                        <a href="./page-sculpture-2.html" class="notice__back" aria-label="Back">
-                          Вернуться назад
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  <p class="reference print__reference">
+                    Слезы. 2016
+                  </p>
+                </a>
 
               </div>
 
-              <form class="page__back" action="./sculpture.html">
-                <button class="btn" type="submit">
-                  &larr;&emsp;Продолжить покупки
-                </button>
-              </form>
+              <!-- <button class="btn print__btn" onclick="showMore()">
+                Learn more&nbsp;&rarr;
+              </button> -->
 
             </div>
           </div>
