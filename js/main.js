@@ -24,7 +24,7 @@ window.addEventListener("scroll", () => {
 });
 
 //! Подсветка меню ***************************
-window.onload = function () {
+window.onload = async function () {
   let links = document.querySelectorAll('.navbar-menu');
   for (let i = 0; i < links.length; i++) {
     let link = links[i];
