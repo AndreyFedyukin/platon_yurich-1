@@ -66,7 +66,7 @@ h3 {
 body {
   width: 100%;
   min-height: 100svh;
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1rem;
   background-color: var(--color-bg);
   overflow-x: hidden;
@@ -200,7 +200,7 @@ body {
 
 .header__logo {
   color: var(--color-text);
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
@@ -261,7 +261,7 @@ body {
   width: min-content;
   display: block;
   color: var(--color-text);
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
@@ -303,7 +303,7 @@ body {
   width: min-content;
   display: block;
   color: var(--color-text);
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
@@ -457,7 +457,7 @@ details summary::-webkit-details-marker {
   top: 50%;
   left: 50%;
   color: var(--color-bg);
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 500;
   font-size: clamp(2.5rem, calc(1.1rem + 4.47vw), 5.13rem);
   line-height: 80px;
@@ -479,7 +479,7 @@ details summary::-webkit-details-marker {
 
 .title {
   color: var(--color-text);
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-size: 34px;
   font-weight: 600;
   line-height: 160%;
@@ -511,7 +511,7 @@ details summary::-webkit-details-marker {
 .about__quote {
   width: 100%;
   max-width: 500px;
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
@@ -550,7 +550,7 @@ details summary::-webkit-details-marker {
 
 .about__text {
   color: var(--color-text);
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -561,7 +561,7 @@ details summary::-webkit-details-marker {
 .btn {
   width: max-content;
   display: block;
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 400;
   font-size: 14px;
   font-style: italic;
@@ -710,7 +710,7 @@ hr {
 }
 
 .reference {
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -1131,7 +1131,7 @@ hr {
 .vases-mag__text {
   width: 100%;
   color: var(--color-text);
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;
@@ -1144,7 +1144,7 @@ hr {
 .vases-mag__site {
   width: 100%;
   color: var(--color-text);
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -1171,7 +1171,7 @@ hr {
 .vases-info__text {
   width: 100%;
   color: var(--color-text);
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -1240,7 +1240,7 @@ hr {
 }
 
 .news__subtitle {
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 700;
   font-size: 28px;
   line-height: 28px;
@@ -1248,7 +1248,7 @@ hr {
 }
 
 .news__date {
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -1256,7 +1256,7 @@ hr {
 }
 
 .news__paragraph {
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -1287,7 +1287,7 @@ hr {
 .contacts__subtitle {
   color: var(--color-hover-menu);
   text-transform: uppercase;
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-size: 16px;
   font-weight: 700;
   line-height: 160%;
@@ -1297,7 +1297,7 @@ hr {
 
 .contacts__mail {
   text-transform: uppercase;
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
@@ -1346,7 +1346,7 @@ hr {
 .plug__title {
   color: var(--color-white);
   text-transform: uppercase;
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   /* font-size: 1rem; */
   text-align: center;
   margin-bottom: 100px;
@@ -1355,7 +1355,7 @@ hr {
 .plug__info {
   color: var(--color-white);
   text-transform: uppercase;
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   text-align: center;
 }
 
@@ -1420,7 +1420,7 @@ hr {
 
 .footer__footnote {
   text-transform: uppercase;
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
@@ -1447,7 +1447,7 @@ hr {
 
 .footer__mail {
   text-transform: uppercase;
-  font-family: "Open Sans";
+  /* font-family: 'Open Sans'; */
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
