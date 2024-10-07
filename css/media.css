@@ -184,6 +184,7 @@
   }
 
   .menu__submenu {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -227,9 +228,9 @@
     transform: rotate(225deg);
   }
 
-  .menu__details[open] {
+  /* .menu__details[open] {
     padding-bottom: 80px;
-  }
+  } */
 
   .menu__details[open] .menu__link-details {
     margin-bottom: 20px;
