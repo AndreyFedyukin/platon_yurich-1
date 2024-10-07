@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   overflow-x: hidden;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 *,
@@ -92,7 +92,7 @@ body {
   position: fixed;
   top: 0;
   background-color: var(--color-bg);
-  border-bottom: 1px solid var(--color-border);
+  /* border-bottom: 1px solid var(--color-border); */
   z-index: 1;
 }
 
@@ -119,13 +119,13 @@ body {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 0px 15px;
+  padding: 20px 0px 18px;
   margin: 0 auto;
 }
 
 /* burger ************************* */
 .header__burger {
-  width: 24px;
+  width: 22px;
   height: 22px;
   visibility: hidden;
   position: relative;
@@ -135,8 +135,8 @@ body {
 }
 
 .header__burger span {
-  width: 24px;
-  height: 1.5008px;
+  width: 22px;
+  height: 1.5px;
   display: block;
   position: absolute;
   background-color: var(--color-text);
@@ -161,7 +161,7 @@ body {
 }
 
 .header__burger:hover span {
-  height: 2.5px;
+  height: 2px;
   background-color: var(--color-hover-menu);
 }
 
@@ -196,6 +196,7 @@ body {
 
 .header.open .header__burger span:nth-child(3) {
   transform: translateY(0) rotate(-45deg);
+  z-index: 100;
 }
 
 .header__logo {
@@ -215,10 +216,13 @@ body {
 
 /* language button ************************* */
 .language-button {
-  width: 24px;
+  width: 22px;
   text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
   cursor: pointer;
-  padding: 2px;
+  padding: 2px 0px;
 
   &:hover {
     outline: 1px solid var(--color-text);
@@ -254,7 +258,7 @@ body {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 17px 0px;
+  padding: 15px 0px;
 }
 
 .menu__link {
