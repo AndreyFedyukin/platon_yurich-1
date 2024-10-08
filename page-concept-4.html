@@ -108,78 +108,99 @@
     <main class="main">
       <div class="main__wrapper">
 
-        <!-- section reportage ************************* -->
-        <section class="section" aria-label="reportage">
+        <!-- section page ************************* -->
+        <section class="section" aria-label="Page">
           <div class="container">
+            <div class="page">
+              <div class="page__wrapper">
 
-            <div class="case reportage">
+                <div class="page__gallery my-gallery">
+                  <div class="page__zoomed zoomed-image"></div>
 
-              <h2 class="title reportage__title">
-                Репортаж
-              </h2>
+                  <div class="page__gallery-box">
+                    <img class="page__preview small-preview" src="./img/concept/concept-4-1.jpg" alt="Image Preview">
+                    <img class="page__preview small-preview" src="./img/concept/concept-4-2.jpg" alt="Image Preview">
+                  </div>
+                </div>
 
-              <div class="case-wrap reportage__wrapper block">
-                <!-- первое изображение -->
-                <a class="case-box reportage__box" href="./page-reportage-1.html">
-                  <picture class="pattern reportage__picture js-open-img">
-                    <source src="./img/reportage/reportage-1.avif" type="image/avif">
-                    <source src="./img/reportage/reportage-1.webp" type="image/webp">
-                    <img class="image reportage__img" src="./img/reportage/reportage-1.jpg" width="600" height="450"
-                      alt="reportage" aria-label="reportage">
-                  </picture>
+                <div class="page__info">
+                  <h3 class="page__title">
+                    Напротив, 2020
+                  </h3>
 
-                  <p class="reference reportage__reference">
-                    Испания, 2016
+                  <p class="page__price">
+                    $10,000 USD
                   </p>
-                </a>
 
-                <!-- второе изображение -->
-                <a class="case-box reportage__box" href="./page-reportage-2.html">
-                  <picture class="pattern reportage__picture js-open-img">
-                    <source src="./img/reportage/reportage-2.avif" type="image/avif">
-                    <source src="./img/reportage/reportage-2.webp" type="image/webp">
-                    <img class="image reportage__img" src="./img/reportage/reportage-2.jpg" width="600" height="450"
-                      alt="reportage" aria-label="reportage">
-                  </picture>
+                  <button class="btn page__open-btn js-open-form">
+                    Contact us for availability
+                  </button>
 
-                  <p class="reference reportage__reference">
-                    Берлин, 2016
-                  </p>
-                </a>
+                  <div class="page__box">
+                    <h4 class="page__box-title">
+                      Brad Pitt from Fight Club, Los Angeles, 17
+                    </h4>
 
-                <!-- третье изображение -->
-                <a class="case-box reportage__box" href="./page-reportage-3.html">
-                  <picture class="pattern reportage__picture js-open-img">
-                    <source src="./img/reportage/reportage-3.avif" type="image/avif">
-                    <source src="./img/reportage/reportage-3.webp" type="image/webp">
-                    <img class="image reportage__img" src="./img/reportage/reportage-3.jpg" width="600" height="450"
-                      alt="reportage" aria-label="reportage">
-                  </picture>
+                    <p class="page__date">
+                      December 1998
+                    </p>
 
-                  <p class="reference reportage__reference" lang="en">
-                    New York, 2016
-                  </p>
-                </a>
+                    <p class="page__compound">
+                      Unique color polaroid 4x5 print
+                    </p>
 
-                <!-- четвертое изображение -->
-                <a class="case-box reportage__box" href="./page-reportage-4.html">
-                  <picture class="pattern reportage__picture js-open-img">
-                    <source src="./img/reportage/reportage-4.avif" type="image/avif">
-                    <source src="./img/reportage/reportage-4.webp" type="image/webp">
-                    <img class="image reportage__img" src="./img/reportage/reportage-4.jpg" width="600" height="450"
-                      alt="reportage" aria-label="reportage">
-                  </picture>
+                    <p class="page__frame">
+                      Frame: 20 1/4 x 18 inches
+                    </p>
 
-                  <p class="reference reportage__reference" lang="en">
-                    New York, 2018
-                  </p>
-                </a>
+                    <p class="page__gen">
+                      Signed in ink on the verso
+                    </p>
+
+                    <p class="page__literature">
+                      "Brad Pitt Unleashed", W, July 1999
+                    </p>
+                  </div>
+
+                  <div class="page__description">
+                    <h4 class="page__description-title">
+                      Literature:
+                    </h4>
+
+                    <p class="page__paragraph">
+                      "Brad Pitt Unleashed", W, July 1999
+                    </p>
+                  </div>
+                </div>
+
+                <!-- окно для отправки сообщения на почту -->
+                <div class="modal form__modal js-modal-form">
+                  <div class="modal__box">
+                    <div class="notice">
+                      <h2 class="notice__title">Направить запрос</h2>
+
+                      <hr>
+
+                      <div class="notice__group-btn">
+                        <a href="mailto:platon.yurich@bk.ru" class="notice__mail" aria-label="E-mail">
+                          Напишите мне, чтобы узнать о наличии
+                        </a>
+
+                        <a href="./page-concept-4.html" class="notice__back" aria-label="Back">
+                          Вернуться назад
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
               </div>
 
-              <!-- <button class="btn reportage__btn" onclick="showMore()">
-                Learn more&nbsp;&rarr;
-              </button> -->
+              <form class="page__back" action="./concept.html">
+                <button class="btn" type="submit">
+                  &larr;&emsp;Продолжить покупки
+                </button>
+              </form>
 
             </div>
           </div>
@@ -220,6 +241,7 @@
   </div>
 
   <script src="./js/main.js"></script>
+  <script src="./js/page-zoom.js"></script>
 </body>
 
 </html>
