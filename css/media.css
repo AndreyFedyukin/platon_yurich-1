@@ -1,16 +1,16 @@
 @media (max-width: 1024px) {
-  .about {
-    padding-top: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
+  hr {
+    margin-bottom: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
     /* 50-30px */
   }
 
+  .about,
   .case,
   .page {
     padding-top: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
     /* 50-30px */
   }
 
-  hr,
   .about,
   .case,
   .case-wrap,
