@@ -1056,7 +1056,7 @@ hr {
   max-width: 70%;
   grid-column-gap: 35%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .sculpture__box {
