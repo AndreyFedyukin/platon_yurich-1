@@ -1,5 +1,4 @@
 .news {
-  padding-top: 70px;
   padding-top: clamp(1.88rem, calc(-0.51rem + 7.63vw), 4.38rem);
 }
 
