@@ -4,8 +4,9 @@
 }
 
 .gallery {
-    /* position: relative; */
+    position: relative;
     margin-bottom: 20px;
+    z-index: 0;
 }
 
 .gallery__link {
