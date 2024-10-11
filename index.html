@@ -10,6 +10,8 @@
 
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/swiper.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/media.css">
 </head>
@@ -306,6 +308,76 @@
           </div>
         </section>
 
+        <!-- section gallery ************************* -->
+        <section>
+          <div class="container">
+            <div class="gallery__wrap">
+              <div class="gallery">
+                <!-- Свайпер -->
+                <div class="swiper gallery-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a class="gallery__link" href="images/1.jpeg">
+                        <img class="gallery__img" src="images/1.jpeg" alt="1">
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a class="gallery__link" href="images/2.jpeg">
+                        <img class="gallery__img" src="images/2.jpeg" alt="2">
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a class="gallery__link" href="images/3.jpeg">
+                        <img class="gallery__img" src="images/3.jpeg" alt="3">
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a class="gallery__link" href="images/4.jpeg">
+                        <img class="gallery__img" src="images/4.jpeg" alt="4">
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a class="gallery__link" href="images/5.jpeg">
+                        <img class="gallery__img" src="images/5.jpeg" alt="5">
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a class="gallery__link" href="images/6.jpeg">
+                        <img class="gallery__img" src="images/6.jpeg" alt="6">
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a class="gallery__link" href="images/7.jpeg">
+                        <img class="gallery__img" src="images/7.jpeg" alt="7">
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Навигация -->
+              <div class="gallery__navigation">
+                <button class="gallery__btn gallery__btn-prev">
+                  <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 11L0.999995 6L6 0.999998" stroke="white" />
+                  </svg>
+                </button>
+
+                <div class="gallery-pagination"></div>
+
+                <button class="gallery__btn gallery__btn-next">
+                  <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 11L6.00001 6L1 0.999997" stroke="white" />
+                  </svg>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
       </div>
     </main>
 
@@ -340,6 +412,9 @@
     </footer>
   </div>
 
+  <!-- <script src="js/fslightbox.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/swiper.js"></script>
   <script src="./js/main.js"></script>
 </body>
 
