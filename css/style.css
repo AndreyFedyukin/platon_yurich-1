@@ -1230,7 +1230,7 @@ hr {
 
 .news__img {
   max-width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 6 / 4;
   margin-bottom: 20px;
 }
 
