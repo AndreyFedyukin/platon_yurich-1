@@ -1267,6 +1267,10 @@ hr {
   margin-bottom: 20px;
 }
 
+.news__btn-link {
+  margin-bottom: 10px;
+}
+
 /* block hidden ************************* */
 /* .block-hidden {
   display: none;
