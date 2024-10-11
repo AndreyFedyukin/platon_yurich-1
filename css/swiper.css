@@ -40,21 +40,12 @@
     border: none;
     outline: none;
     border-radius: 50%;
-    background-color: rgb(46, 46, 46);
+    outline: 1px solid var(--color-border);
     cursor: pointer;
     transition: background-color .3s;
     z-index: 2;
 }
 
-.gallery__btn:hover {
-    background-color: rgb(73, 73, 73);
-}
-
 .swiper-button-disabled {
-    background-color: rgb(174, 174, 174);
     cursor: no-drop;
 }
-
-/* .swiper-pagination-total {
-    opacity: .6;
-} */
