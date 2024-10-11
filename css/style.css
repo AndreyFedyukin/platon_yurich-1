@@ -1457,4 +1457,8 @@ hr {
   line-height: 140%;
   font-style: italic;
   letter-spacing: 3px;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
