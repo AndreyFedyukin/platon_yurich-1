@@ -94,8 +94,8 @@
   }
 
   .news__subtitle {
-    font-size: clamp(1.38rem, calc(1.02rem + 1.15vw), 1.75rem);
-    /* 28-22 */
+    font-size: clamp(1.38rem, calc(1.14rem + 0.76vw), 1.63rem);
+    /* 26-22 */
   }
 
   .news__date,
