@@ -2,13 +2,13 @@
   padding-top: clamp(1.88rem, calc(-0.51rem + 7.63vw), 4.38rem);
 }
 
-.news__wrapper {
+.news__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 @media (max-width: 768px) {
-  .news__wrapper {
+  .news__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 500px) {
-  .news__wrapper {
+  .news__grid {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;

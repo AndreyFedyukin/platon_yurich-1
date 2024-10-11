@@ -1209,7 +1209,7 @@ hr {
   margin-bottom: 50px;
 }
 
-.news__wrapper {
+.news__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2%;

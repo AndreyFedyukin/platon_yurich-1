@@ -1,40 +1,28 @@
-.gallery__wrap {
+.news__gallery {
     width: 100%;
     margin-bottom: 50px;
 }
 
-.gallery {
+.news__wrapper {
     position: relative;
     margin-bottom: 20px;
     z-index: 0;
 }
 
-.gallery__link {
-    height: 240px;
-    display: block;
-    overflow: hidden;
-}
-
-.gallery__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.gallery__navigation {
+.news__navigation {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
 }
 
-.gallery-pagination {
+.news-pagination {
     width: inherit;
     display: flex;
     justify-content: center;
 }
 
-.gallery__btn {
+.news__btn {
     width: 25px;
     height: 25px;
     border: none;

@@ -1,13 +1,13 @@
-let swiper = new Swiper(".gallery-swiper", {
+let swiper = new Swiper(".news-swiper", {
     slidesPerView: 1,
     spaceBetween: 15,
     pagination: {
-        el: ".gallery-pagination",
+        el: ".news-pagination",
         type: "fraction"
     },
     navigation: {
-        nextEl: ".gallery__btn-next",
-        prevEl: ".gallery__btn-prev"
+        nextEl: ".news__btn-next",
+        prevEl: ".news__btn-prev"
     },
     breakpoints: {
         500: {
