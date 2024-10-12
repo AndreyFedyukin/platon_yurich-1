@@ -550,6 +550,8 @@ details summary::-webkit-details-marker {
   display: inline-block;
   text-align: left;
   margin: auto 0;
+  margin-top: 50px;
+  /*! убрать */
 }
 
 .about__text {
@@ -560,6 +562,20 @@ details summary::-webkit-details-marker {
   line-height: 28px;
   overflow: hidden;
   margin-bottom: 20px;
+  padding: 7px;
+  outline: 1px solid red;
+  /*! убрать */
+}
+
+.about__text-2 {
+  text-align: justify;
+  /*! убрать */
+}
+
+.about__text-3 {
+  text-align: justify;
+  /*! убрать */
+  hyphens: auto;
 }
 
 .btn {
@@ -716,7 +732,7 @@ hr {
 .reference {
   /* font-family: 'Open Sans'; */
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 28px;
 }
 

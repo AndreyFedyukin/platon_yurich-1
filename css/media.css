@@ -34,8 +34,8 @@
   }
 
   .reference {
-    font-size: clamp(1rem, calc(0.88rem + 0.38vw), 1.13rem);
-    /* 18-16 */
+    font-size: clamp(0.75rem, calc(0.63rem + 0.38vw), 0.88rem);
+    /* 14-12px */
   }
 
   .about__text {
