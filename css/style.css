@@ -481,6 +481,22 @@ details summary::-webkit-details-marker {
   margin-bottom: 50px;
 }
 
+.about__picture {
+  margin-bottom: 10px;
+}
+
+.about__img {
+  width: 100%;
+  max-width: 100svw;
+  height: auto;
+  min-height: 240px;
+  max-height: 650px;
+}
+
+.about__picture-mobile {
+  display: none;
+}
+
 .title {
   color: var(--color-text);
   /* font-family: 'Open Sans'; */
@@ -526,15 +542,6 @@ details summary::-webkit-details-marker {
   margin-bottom: 30px;
 }
 
-.about__picture {
-  margin-bottom: 10px;
-}
-
-.about__img {
-  width: 100%;
-  border-radius: 16px;
-}
-
 .about__video {
   width: 100%;
   max-height: 700px;
@@ -550,8 +557,6 @@ details summary::-webkit-details-marker {
   display: inline-block;
   text-align: left;
   margin: auto 0;
-  margin-top: 50px;
-  /*! убрать */
 }
 
 .about__text {
@@ -561,21 +566,8 @@ details summary::-webkit-details-marker {
   font-size: 16px;
   line-height: 28px;
   overflow: hidden;
+  text-align: justify;
   margin-bottom: 20px;
-  padding: 7px;
-  outline: 1px solid red;
-  /*! убрать */
-}
-
-.about__text-2 {
-  text-align: justify;
-  /*! убрать */
-}
-
-.about__text-3 {
-  text-align: justify;
-  /*! убрать */
-  hyphens: auto;
 }
 
 .btn {

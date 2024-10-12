@@ -301,11 +301,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /*! надо убрать в процессе доработки */
-  /* .spam-3 {
-    display: none;
-  } */
-
   /* section contacts ************************* */
   .contacts {
     height: calc(100svh - 160px);
@@ -354,6 +349,22 @@
   /* section about ************************* */
   .about__wrapper {
     flex-direction: column;
+  }
+
+  .about__picture {
+    display: none;
+  }
+
+  .about__picture-mobile {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .about__img-mobile {
+    width: 100%;
+    max-width: 100svw;
+    height: auto;
+    min-height: 265px;
   }
 
   .about__video-wrap {

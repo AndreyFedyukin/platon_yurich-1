@@ -108,14 +108,33 @@
     <main class="main">
       <div class="main__wrapper">
 
+        <section aria-label="Content">
+
+          <div class="about__content">
+            <picture class="about__picture">
+              <source src="./img/about-top.webp" type="image/webp">
+              <source src="./img/about-top.jpg" type="image/img">
+              <img class="about__img" src="./img/about-top.jpg" width="2000" height="650" alt="Top Image"
+                aria-label="Top Image">
+            </picture>
+
+            <picture class="about__picture-mobile">
+              <source src="./img/about-top-mobile.webp" type="image/webp">
+              <source src="./img/about-top-mobile.jpg" type="image/img">
+              <img class="about__img-mobile" src="./img/about-top-mobile.jpg" width="1000" height="530" alt="Top Image"
+                aria-label="Top Image">
+            </picture>
+          </div>
+        </section>
+
         <!-- section about ************************* -->
         <section class="section" aria-label="About">
           <div class="container">
             <div class="case about">
 
-              <h2 class="title about__title">
-                Обо мне
-              </h2>
+              <h1 class="title about__title" lang="en">
+                About
+              </h1>
 
               <p class="about__quote">
                 «Люблю оставлять пространство для маневра»
