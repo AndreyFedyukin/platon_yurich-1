@@ -477,8 +477,11 @@ details summary::-webkit-details-marker {
   flex-wrap: nowrap;
   /* align-items: start; */
   justify-content: space-between;
-  padding-top: 50px;
   margin-bottom: 50px;
+}
+
+.about__box-mobile {
+  display: none;
 }
 
 .about__picture {
@@ -509,7 +512,8 @@ details summary::-webkit-details-marker {
 }
 
 .about__title {
-  text-align: start;
+  text-align: end;
+  margin: 0;
 }
 
 .about__wrapper {
@@ -521,7 +525,7 @@ details summary::-webkit-details-marker {
 }
 
 .about__video-wrap {
-  width: 45%;
+  width: 47%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -552,7 +556,7 @@ details summary::-webkit-details-marker {
 }
 
 .about__text-wrap {
-  width: 45%;
+  width: 47%;
   max-height: 390px;
   display: inline-block;
   text-align: left;

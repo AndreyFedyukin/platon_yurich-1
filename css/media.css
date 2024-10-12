@@ -28,9 +28,8 @@
   }
 
   /* section about ************************* */
-  .about__video-wrap,
-  .about__text-wrap {
-    width: 48%;
+  .about__title {
+    margin: 0;
   }
 
   .reference {
