@@ -437,7 +437,8 @@ details summary::-webkit-details-marker {
   margin-top: 120px;
 }
 
-/* section home ************************* */
+/* page home ************************* */
+/* section banner ************************* */
 .banner {
   width: 100%;
   position: relative;
@@ -557,20 +558,13 @@ details summary::-webkit-details-marker {
   margin-bottom: 20px;
 }
 
-/* section page about ************************* */
-.about {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  margin-bottom: 50px;
-}
-
-.about__picture-banner {
+/* page about ************************* */
+/* section banner ************************* */
+.banner__picture-about {
   margin-bottom: 10px;
 }
 
-.about__banner-img {
+.banner__about-img {
   width: 100%;
   max-width: 100svw;
   height: auto;
@@ -578,21 +572,59 @@ details summary::-webkit-details-marker {
   max-height: 650px;
 }
 
-.about__picture-banner-mobile {
+.banner__picture-about-mobile {
   display: none;
 }
 
+/* section about ************************* */
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.about__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* .about__title {
+  margin-bottom: 30px;
+} */
+
+.about__text-wrap {
+  width: 47%;
+}
+
+.about__text {
+  color: var(--color-text);
+  /* font-family: 'Open Sans'; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.about__picture {
+  width: 47%;
+}
+
+/* section exhibitions ************************* */
 .exhibitions__title {
   text-align: start;
-  margin: 0;
 }
 
 .exhibitions__wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: start;
   justify-content: space-between;
+  align-items: start;
 }
 
 .exhibitions__video-wrap {
@@ -614,7 +646,6 @@ details summary::-webkit-details-marker {
 
 .exhibitions__text-wrap {
   width: 47%;
-  max-height: 390px;
   display: inline-block;
 }
 
@@ -624,7 +655,6 @@ details summary::-webkit-details-marker {
   font-size: 16px;
   line-height: 28px;
   overflow: hidden;
-  text-align: justify;
 }
 
 .btn {
