@@ -110,35 +110,37 @@
     <main class="main">
       <div class="main__wrapper">
 
-        <!-- section content ************************* -->
-        <section aria-label="Content">
-          <div class="content">
-            <picture class="content__picture">
+        <!-- section home banner ************************* -->
+        <section aria-label="Banner">
+          <div class="banner">
+            <picture class="banner__picture">
               <source src="./img/top.avif" type="image/avif">
               <source src="./img/top.webp" type="image/webp">
-              <img class="content__img" src="./img/top.jpg" width="1920" height="1500" alt="Top Image"
+              <img class="banner__img" src="./img/top.jpg" width="1920" height="1500" alt="Top Image"
                 aria-label="Top Image">
             </picture>
           </div>
         </section>
 
-        <!-- section about ************************* -->
-        <section class="section" aria-label="About">
+        <!-- section home about ************************* -->
+        <section class="section" aria-label="Home about">
           <div class="container">
-            <div class="case about">
+            <div class="about-home">
 
-              <h1 class="title about__title" lang="en">
-                About the artist
-              </h1>
+              <div class="about-home__box title-box__mobil">
+                <h1 class="title about-home__title" lang="en">
+                  About the artist
+                </h1>
 
-              <p class="about__quote">
-                «Люблю оставлять пространство для маневра»
-              </p>
+                <p class="about__quote">
+                  «Люблю оставлять пространство для маневра»
+                </p>
+              </div>
 
-              <div class="about__wrapper">
+              <div class="about-home__wrapper">
 
                 <div class="about__video-wrap">
-                  <video class="about__video js-video-open" width="800" preload="auto" autoplay loop muted playsinline
+                  <video class="about__video js-video-open" width="545" preload="auto" autoplay loop muted playsinline
                     aria-label="Video">
                     <source src="./video/platon.webm" type="video/webm">
                     <source src="./video/platon.mp4" type="video/mp4">
@@ -166,19 +168,30 @@
                   </p>
                 </div>
 
-                <div class="about__text-wrap">
+                <div class="about-home__text-wrap">
+                  <div class="about-home__box title-box__desktop">
+                    <h1 class="title about-home__title" lang="en">
+                      About the artist
+                    </h1>
 
-                  <p class="about__text">
-                    Родился в Москве в 1987 году. Является современным междисциплинарным AYAUMVKOM. Входит в топ 25
-                    самых влиятельных фотографов фантастов. Работает со скульптурой, живописью, цифрой. Его работы
-                    представлены в галереях Европы, Корее, США и ОАЭ.
-                  </p>
+                    <p class="about__quote">
+                      «Люблю оставлять пространство для маневра»
+                    </p>
+                  </div>
 
-                  <form class="about__text-btn" action="./about.html">
-                    <button class="btn" type="submit">
-                      Узнать&nbsp;больше&nbsp;&rarr;
-                    </button>
-                  </form>
+                  <div class="about-home__text-box">
+                    <p class="about__text">
+                      Родился в Москве в 1987 году. Является современным междисциплинарным AYAUMVKOM. Входит в топ 25
+                      самых влиятельных фотографов фантастов. Работает со скульптурой, живописью, цифрой. Его работы
+                      представлены в галереях Европы, Корее, США и ОАЭ.
+                    </p>
+
+                    <form class="about__text-btn" action="./about.html">
+                      <button class="btn" type="submit">
+                        Узнать&nbsp;больше&nbsp;&rarr;
+                      </button>
+                    </form>
+                  </div>
                 </div>
 
               </div>
@@ -350,7 +363,7 @@
                 </div>
               </div>
 
-              <!-- Навигация -->
+              <!-- Навигация по новостям -->
               <div class="news__navigation">
                 <button class="news__btn news__btn-prev">
                   <svg width="7" height="11" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
