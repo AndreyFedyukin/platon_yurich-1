@@ -14,6 +14,8 @@
   .title,
   .page__wrapper,
   .page__back,
+  .about__wrapper,
+  .exhibitions__wrapper,
   .vases-mag,
   .vases-info__title,
   .news {
@@ -25,6 +27,8 @@
   .title {
     font-size: clamp(1.75rem, calc(1.39rem + 1.15vw), 2.13rem);
     /* 34-28px */
+    font-size: clamp(1.63rem, calc(1.27rem + 1.15vw), 2rem);
+    /* 32-26px */
   }
 
   /* section about ************************* */
@@ -33,12 +37,17 @@
   }
 
   .about__title {
-    margin-bottom: clamp(0.63rem, calc(-2.98rem + 7.52vw), 3.13rem);
+    margin-bottom: clamp(0.63rem, calc(-6.87rem + 15.63vw), 3.13rem);
     /* 50-10px */
   }
 
   .exhibitions__title {
-    margin-bottom: clamp(0.63rem, calc(-2.98rem + 7.52vw), 3.13rem);
+    margin-bottom: clamp(0.63rem, calc(-6.87rem + 15.63vw), 3.13rem);
+    /* 50-10px */
+  }
+
+  .press__title {
+    margin-bottom: clamp(0.63rem, calc(-6.87rem + 15.63vw), 3.13rem);
     /* 50-10px */
   }
 
@@ -48,6 +57,11 @@
   }
 
   .exhibitions__text {
+    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
+    /* 16-14px */
+  }
+
+  .press__text {
     font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
     /* 16-14px */
   }
@@ -449,7 +463,6 @@
 
   .exhibitions__video-wrap {
     width: 100%;
-    margin-bottom: 30px;
   }
 
   .exhibitions__text-wrap {
@@ -459,6 +472,23 @@
 
   .exhibitions__title {
     text-align: center;
+  }
+
+  .press__wrapper {
+    flex-direction: column;
+  }
+
+  .press__text-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .press__title {
+    text-align: center;
+  }
+
+  .press__picture {
+    width: 100%;
   }
 
   /* case ************************* */
