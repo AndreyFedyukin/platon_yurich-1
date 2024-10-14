@@ -566,11 +566,11 @@ details summary::-webkit-details-marker {
   margin-bottom: 50px;
 }
 
-.about__picture {
+.about__picture-banner {
   margin-bottom: 10px;
 }
 
-.about__img {
+.about__banner-img {
   width: 100%;
   max-width: 100svw;
   height: auto;
@@ -578,25 +578,16 @@ details summary::-webkit-details-marker {
   max-height: 650px;
 }
 
-.about__picture-mobile {
+.about__picture-banner-mobile {
   display: none;
 }
 
-.about__title {
-  text-align: end;
+.exhibitions__title {
+  text-align: start;
   margin: 0;
 }
 
-.about__quote {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 140%;
-  font-style: italic;
-  text-transform: uppercase;
-  text-align: end;
-}
-
-.about__wrapper {
+.exhibitions__wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -604,7 +595,7 @@ details summary::-webkit-details-marker {
   justify-content: space-between;
 }
 
-.about__video-wrap {
+.exhibitions__video-wrap {
   width: 47%;
   display: flex;
   flex-direction: column;
@@ -612,7 +603,7 @@ details summary::-webkit-details-marker {
   align-items: flex-start;
 }
 
-.about__video {
+.exhibitions__video {
   width: 100%;
   max-height: 700px;
   position: relative;
@@ -621,21 +612,19 @@ details summary::-webkit-details-marker {
   margin-bottom: 10px;
 }
 
-.about__text-wrap {
+.exhibitions__text-wrap {
   width: 47%;
   max-height: 390px;
   display: inline-block;
-  margin: auto 0;
 }
 
-.about__text {
+.exhibitions__text {
   color: var(--color-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   overflow: hidden;
   text-align: justify;
-  margin-bottom: 20px;
 }
 
 .btn {
