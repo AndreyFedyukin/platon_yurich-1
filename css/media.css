@@ -420,6 +420,10 @@
     margin-bottom: 30px;
   }
 
+  .about__title {
+    text-align: center;
+  }
+
   .about__picture {
     width: 100%;
   }
