@@ -382,6 +382,11 @@
     width: 100%;
   }
 
+  .about-home__video-wrap {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
   /* section about ************************* */
   .about__wrapper {
     flex-direction: column;
