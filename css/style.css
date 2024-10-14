@@ -496,6 +496,7 @@ details summary::-webkit-details-marker {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  text-align: end;
   margin-bottom: 30%;
 }
 
@@ -544,6 +545,7 @@ details summary::-webkit-details-marker {
 .about-home__text-wrap {
   width: 47%;
   display: inline-block;
+  padding-bottom: 38px;
   margin: 0;
 }
 

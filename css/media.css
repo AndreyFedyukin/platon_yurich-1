@@ -286,6 +286,15 @@
     display: none;
   }
 
+  .about-home__title {
+    width: 100%;
+    text-align: start;
+  }
+
+  .about-home__quote {
+    width: 100%;
+  }
+
   /* section about ************************* */
   .about__wrapper {
     align-items: center;
@@ -293,6 +302,10 @@
 
   .about__title {
     margin-bottom: 10px;
+  }
+
+  .exhibitions__wrapper {
+    align-items: center;
   }
 
 
@@ -385,6 +398,7 @@
   }
 
   .about-home__text-wrap {
+    padding-bottom: 0;
     width: 100%;
   }
 
