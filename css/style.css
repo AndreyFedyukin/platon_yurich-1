@@ -600,6 +600,10 @@ details summary::-webkit-details-marker {
   width: 47%;
 }
 
+.about__title {
+  text-align: start;
+}
+
 .about__text {
   color: var(--color-text);
   /* font-family: 'Open Sans'; */
