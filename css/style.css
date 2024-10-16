@@ -716,6 +716,44 @@ details summary::-webkit-details-marker {
   width: 47%;
 }
 
+/* section film ************************* */
+.film {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.film__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.film__text-wrap {
+  width: 47%;
+}
+
+.film__title {
+  text-align: start;
+}
+
+.film__text {
+  color: var(--color-text);
+  /* font-family: 'Open Sans'; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.film__picture {
+  width: 47%;
+}
+
 /* modal window ************************* */
 .modal {
   width: 100%;

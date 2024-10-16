@@ -51,6 +51,11 @@
     /* 50-10px */
   }
 
+  .film__title {
+    margin-bottom: clamp(0.63rem, calc(-6.87rem + 15.63vw), 3.13rem);
+    /* 50-10px */
+  }
+
   .reference {
     font-size: clamp(0.75rem, calc(0.63rem + 0.38vw), 0.88rem);
     /* 14-12px */
@@ -62,6 +67,11 @@
   }
 
   .press__text {
+    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
+    /* 16-14px */
+  }
+
+  .film__text {
     font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
     /* 16-14px */
   }
@@ -421,8 +431,8 @@
     margin-bottom: 30px;
   }
 
-  /* section about ************************* */
-
+  /* page about ************************* */
+  /* banner ************************* */
   .banner__picture-about {
     display: none;
   }
@@ -439,6 +449,7 @@
     min-height: 265px;
   }
 
+  /* about ************************* */
   .about__wrapper {
     flex-direction: column;
   }
@@ -456,6 +467,7 @@
     width: 100%;
   }
 
+  /* exhibitions ************************* */
   .exhibitions__wrapper {
     flex-direction: column;
     align-items: center;
@@ -474,6 +486,7 @@
     text-align: center;
   }
 
+  /* press ************************* */
   .press__wrapper {
     flex-direction: column;
   }
@@ -488,6 +501,24 @@
   }
 
   .press__picture {
+    width: 100%;
+  }
+
+  /* film ************************* */
+  .film__wrapper {
+    flex-direction: column;
+  }
+
+  .film__text-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .film__title {
+    text-align: center;
+  }
+
+  .film__picture {
     width: 100%;
   }
 
