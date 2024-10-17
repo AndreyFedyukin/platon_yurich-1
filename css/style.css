@@ -341,6 +341,10 @@ body {
   width: 100%;
 }
 
+.menu__storage {
+  width: 127px;
+}
+
 .menu__storage:hover .menu__submenu {
   display: flex;
   flex-direction: column;
@@ -538,7 +542,6 @@ details summary::-webkit-details-marker {
   position: relative;
   border-radius: 16px;
   cursor: pointer;
-  margin-bottom: 10px;
 }
 
 .about-home__text-wrap {
@@ -1211,6 +1214,32 @@ hr {
 
 .paintings__btn {
   margin: 0 auto;
+}
+
+/* section video ************************* */
+.video__banner {
+  margin-bottom: 57px;
+}
+
+.video__banner-video {
+  width: 100%;
+  max-width: 100svw;
+  min-height: 554px;
+}
+
+.video__wrapper {
+  width: 100%;
+  min-width: 222px;
+  max-width: 35%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.video__content {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 16px;
 }
 
 /* section reportage ************************* */

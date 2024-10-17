@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+  <title lang="en">Platon Yurich</title>
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/swiper.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+  <div class="body-wrapper">
+    <header class="header">
+      <div class="header__wrapper">
+
+        <div class="header__first">
+          <div class="container">
+            <div class="header__first-wrap">
+              <button id="burger" class="burger header__burger" aria-label="Burger menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+
+              <a href="./index.html" class="logo header__logo" aria-label="Home" lang="en">Platon&nbsp;Yurich</a>
+
+              <div id="language" class="language-button" lang="en">En</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__menu js-submenu">
+          <div class="container">
+
+            <nav id="menu" class="menu" aria-label="Bar">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="./about.html" aria-label="Обо мне">Обо&nbsp;мне</a>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="./paintings.html" aria-label="Картины">Картины</a>
+                </li>
+
+                <li class="menu__item menu__storage">
+                  <details class="menu__details">
+                    <summary class="menu__link-details">
+                      <span class="menu__link-name">Фотографии</span>
+                      <span class="storage-arrow"></span>
+                    </summary>
+
+                    <ul class="menu__submenu menu__details-content">
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link" href="./reportage.html"
+                          aria-label="Reportage">Репортаж</a>
+                      </li>
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link" href="./concept.html" aria-label="Концепт">Концепт</a>
+                      </li>
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link" href="./print.html" aria-label="Принт">Принт</a>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="./video.html" aria-label="Видео">Видео</a>
+                </li>
+
+                <li class="menu__item menu__storage">
+                  <details class="menu__details">
+                    <summary class="menu__link-details">
+                      <span class="menu__link-name">Арт&minus;объекты</span>
+                      <span class="storage-arrow"></span>
+                    </summary>
+
+                    <ul class="menu__submenu menu__details-content">
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link" href="./sculpture.html"
+                          aria-label="Скульптуры">Скульптуры</a>
+                      </li>
+                      <li class="menu__submenu-item">
+                        <a class="menu__link menu__submenu-link" href="./vases.html" aria-label="Вазы">Вазы</a>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="./news.html" aria-label="Новости">Новости</a>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="./contact.html" aria-label="Контакты">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__wrapper">
+
+        <!-- section video banner ************************* -->
+        <section aria-label="Banner">
+          <div class="banner video__banner">
+            <video class="video__banner-video" width="1920" height="554" preload="auto" autoplay loop muted playsinline
+              aria-label="Video" lang="en">
+              <source src="./video/banner.mov" type="video/quicktime">
+              <source src="./video/banner.mp4" type="video/mp4">
+              Your browser doesn't support HTML5 video tag.
+            </video>
+          </div>
+        </section>
+
+        <!-- section video ************************* -->
+        <section aria-label="video">
+          <div class="video">
+            <div class="container">
+              <div class="video__wrapper">
+                <h1 class="title video__title" lang="en">
+                  Concept video
+                </h1>
+
+                <!-- video-1 ************************* -->
+                <div class="video-library__wrap">
+                  <video class="video__content js-video-open" width="545" preload="auto" autoplay loop muted playsinline
+                    aria-label="Video" lang="en">
+                    <source src="./video/video-1.mp4" type="video/mp4">
+                    Your browser doesn't support HTML5 video tag.
+                  </video>
+
+                  <div class="modal js-modal-video" data-modal-video="modal-video">
+                    <div class="modal__box">
+                      <button class="modal__close-btn js-close-btn" data-close-video="close-btn-video"
+                        aria-label="Close video">
+                        закрыть
+                      </button>
+
+                      <video class="modal__video my-video" width="800" preload="auto" loop playsinline
+                        aria-label="Video" lang="en">
+                        <source src="./video/video-1.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- video-2 ************************* -->
+                <div class="video-library__wrap">
+                  <video class="video__content js-video-open" width="545" preload="auto" autoplay loop muted playsinline
+                    aria-label="Video" lang="en">
+                    <source src="./video/video-2.mp4" type="video/mp4">
+                    Your browser doesn't support HTML5 video tag.
+                  </video>
+
+                  <div class="modal js-modal-video" data-modal-video="modal-video">
+                    <div class="modal__box">
+                      <button class="modal__close-btn js-close-btn" data-close-video="close-btn-video"
+                        aria-label="Close video">
+                        закрыть
+                      </button>
+
+                      <video class="modal__video my-video" width="800" preload="auto" loop playsinline
+                        aria-label="Video" lang="en">
+                        <source src="./video/video-2.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+
+          <p class="footer__footnote" lang="en">
+            &copy; 2024 Platon&nbsp;Yurich
+          </p>
+
+          <div class="footer__social">
+
+            <a href="https://www.instagram.com/platon_yurich/" class="footer__social-link" target="_blank">
+              <img src="./img/svg/instagram.svg" alt="Instagram">
+            </a>
+
+            <a href="https://t.me/platonyurich/" class="footer__social-link" target="_blank">
+              <img src="./img/svg/telegram.svg" alt="Telegram">
+            </a>
+
+            <a href="mailto:platon.yurich@bk.ru" class="footer__social-link footer__mail-icon">
+              <img src="./img/svg/email.svg" alt="Email">
+            </a>
+
+            <a href="mailto:platon.yurich@bk.ru" class="footer__mail" lang="en">platon.yurich@bk.ru</a>
+
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/swiper.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
