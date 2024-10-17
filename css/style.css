@@ -1224,7 +1224,7 @@ hr {
 .video__banner-video {
   width: 100%;
   max-width: 100svw;
-  min-height: 554px;
+  height: 554px;
 }
 
 .video__wrapper {
