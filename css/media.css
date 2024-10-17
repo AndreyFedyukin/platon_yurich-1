@@ -53,7 +53,11 @@
 
   .film__title {
     margin-bottom: clamp(0.63rem, calc(-6.87rem + 15.63vw), 3.13rem);
-    /* 50-10px */
+    margin-bottom: 0px;
+  }
+
+  .mag__title {
+    margin-bottom: clamp(0.63rem, calc(-6.87rem + 15.63vw), 3.13rem);
   }
 
   .reference {
@@ -72,6 +76,11 @@
   }
 
   .film__text {
+    font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
+    /* 16-14px */
+  }
+
+  .mag__text {
     font-size: clamp(0.88rem, calc(0.76rem + 0.38vw), 1rem);
     /* 16-14px */
   }
@@ -516,9 +525,29 @@
 
   .film__title {
     text-align: center;
+    margin-bottom: 10px;
   }
 
   .film__picture {
+    width: 100%;
+  }
+
+  /* mag ************************* */
+  .mag__wrapper {
+    flex-direction: column;
+  }
+
+  .mag__text-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .mag__title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .mag__picture {
     width: 100%;
   }
 

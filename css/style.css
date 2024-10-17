@@ -53,6 +53,7 @@ h3 {
   --color-bg: rgb(255, 255, 255);
   --color-bg-page: rgb(246, 246, 246);
   --color-text: rgb(34, 34, 34);
+  --color-black: rgb(0, 0, 0);
   --color-hover-menu: rgb(0, 0, 0);
   --color-border: rgba(200, 200, 200, 0.8);
   --color-hr: rgba(238, 238, 238, 0.8);
@@ -617,6 +618,7 @@ details summary::-webkit-details-marker {
 }
 
 .about__title {
+  text-transform: none;
   text-align: start;
 }
 
@@ -738,6 +740,7 @@ details summary::-webkit-details-marker {
 
 .film__title {
   text-align: start;
+  margin-bottom: 0px;
 }
 
 .film__text {
@@ -748,9 +751,83 @@ details summary::-webkit-details-marker {
   line-height: 28px;
   overflow: hidden;
   text-align: justify;
+  margin-bottom: 5px;
+}
+
+.film__text:nth-last-child(2) {
+  margin-bottom: 15px;
+}
+
+.film__site {
+  width: 100px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding-bottom: 2px;
+  margin: 0 auto;
+
+  &:hover {
+    color: var(--color-black);
+    border-bottom: 1px solid var(--color-text);
+  }
 }
 
 .film__picture {
+  width: 47%;
+}
+
+/* section mag ************************* */
+.mag {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.mag__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.mag__text-wrap {
+  width: 47%;
+}
+
+.mag__title {
+  text-align: start;
+}
+
+.mag__text {
+  color: var(--color-text);
+  /* font-family: 'Open Sans'; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  overflow: hidden;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.mag__site {
+  width: 87px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  padding-bottom: 2px;
+  margin: 0 auto;
+
+  &:hover {
+    color: var(--color-black);
+    border-bottom: 1px solid var(--color-text);
+  }
+}
+
+.mag__picture {
   width: 47%;
 }
 
