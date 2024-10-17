@@ -551,6 +551,11 @@ details summary::-webkit-details-marker {
   margin: 0;
 }
 
+.text {
+  hyphens: auto;
+  text-align: justify;
+}
+
 .about-home__text {
   color: var(--color-text);
   /* font-family: 'Open Sans'; */
@@ -632,6 +637,7 @@ details summary::-webkit-details-marker {
   line-height: 28px;
   overflow: hidden;
   text-align: justify;
+  hyphens: auto;
 }
 
 .about__picture {
