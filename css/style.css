@@ -752,11 +752,12 @@ details summary::-webkit-details-marker {
   overflow: hidden;
   text-align: justify;
   margin-bottom: 5px;
+
+  &:nth-last-child(2) {
+    margin-bottom: 15px;
+  }
 }
 
-.film__text:nth-last-child(2) {
-  margin-bottom: 15px;
-}
 
 .film__site {
   width: 100px;

@@ -14,13 +14,20 @@
   .title,
   .page__wrapper,
   .page__back,
-  .about__wrapper,
-  .exhibitions__wrapper,
   .vases-mag,
   .vases-info__title,
   .news {
     margin-bottom: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
     /* 50-30px */
+  }
+
+  .about__wrapper,
+  .exhibitions__wrapper,
+  .press__wrapper,
+  .film__wrapper,
+  .mag__wrapper {
+    margin-bottom: clamp(2.5rem, calc(1.9rem + 1.91vw), 3.13rem);
+    /* 50-40px */
   }
 
   /* section content ************************* */
