@@ -1618,12 +1618,11 @@ hr {
   font-style: italic;
   letter-spacing: 3px;
   text-decoration: underline;
-  margin-bottom: 70px;
+  margin-bottom: 7%;
 }
 
 .contacts__picture {
   max-width: 500px;
-  /* margin-bottom: 50px; */
 }
 
 .contacts__social {
