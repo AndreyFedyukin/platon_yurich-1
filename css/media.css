@@ -15,7 +15,8 @@
   .page__wrapper,
   .page__back,
   .vases-mag,
-  .news {
+  .news,
+  .contacts__mail {
     margin-bottom: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
     /* 50-30px */
   }
@@ -401,7 +402,6 @@
   .contacts__mail {
     font-size: clamp(0.75rem, calc(0.52rem + 0.75vw), 0.88rem);
     /* 14-12px */
-    margin-bottom: 50px;
   }
 
   /* section plug ************************* */
