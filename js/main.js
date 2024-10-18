@@ -24,26 +24,6 @@ window.addEventListener("scroll", () => {
 });
 
 //! Подсветка меню ***************************
-// window.onload = function () {
-//   let links = document.querySelectorAll('.navbar-menu');
-//   for (let i = 0; i < links.length; i++) {
-//     let link = links[i];
-//     if (link.href === document.location.href) {
-//       link.classList.add('backlight');
-//     }
-//   }
-// }
-
-// window.addEventListener('DOMContentLoaded', async function () {
-//   let links = await document.querySelectorAll('.navbar-menu');
-//   for (let i = 0; i < links.length; i++) {
-//     let link = links[i];
-//     if (link.href === document.location.href) {
-//       link.classList.add('backlight');
-//     }
-//   }
-// });
-
 document.addEventListener('DOMContentLoaded', function () {
   let links = document.querySelectorAll('.navbar-menu');
   for (let i = 0; i < links.length; i++) {
