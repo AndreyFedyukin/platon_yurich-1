@@ -1475,6 +1475,7 @@ hr {
 
 .vases-info__title {
   text-align: center;
+  hyphens: auto;
   margin-bottom: 50px;
 }
 
