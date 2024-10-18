@@ -625,7 +625,6 @@ details summary::-webkit-details-marker {
 }
 
 .about__title {
-  text-transform: none;
   text-align: start;
 }
 
