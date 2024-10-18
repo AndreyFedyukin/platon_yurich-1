@@ -118,18 +118,18 @@
             <div class="case page">
               <div class="page__wrapper">
 
-                <figure class="page__gallery">
-                  <picture class="page__picture zoom" onmousemove="zoom(event)"
-                    style="background-image: url(./img/sculp-2.jpg);">
-                    <img class="page__img" src="./img/sculp-2.jpg" alt="Card img" aria-label="Card image"
-                      loading="lazy">
-                  </picture>
-                </figure>
+                <div class="page__gallery my-gallery">
+                  <div class="page__zoomed zoomed-image"></div>
+
+                  <div class="page__gallery-box">
+                    <img class="page__preview small-preview" src="./img/sculp-2-1.jpg" alt="Image Preview">
+                  </div>
+                </div>
 
                 <div class="page__info">
-                  <h3 class="page__title">
-                    Brad Pitt from Fight Club, 1998
-                  </h3>
+                  <h1 class="page__title">
+                    "Идеальное", 2024
+                  </h1>
 
                   <p class="page__price">
                     $10,000 USD
@@ -140,9 +140,9 @@
                   </button>
 
                   <div class="page__box">
-                    <h4 class="page__box-title">
+                    <h2 class="page__box-title">
                       Brad Pitt from Fight Club, Los Angeles, 17
-                    </h4>
+                    </h2>
 
                     <p class="page__date">
                       December 1998
@@ -166,9 +166,9 @@
                   </div>
 
                   <div class="page__description">
-                    <h4 class="page__description-title">
+                    <h3 class="page__description-title">
                       Literature:
-                    </h4>
+                    </h3>
 
                     <p class="page__paragraph">
                       "Brad Pitt Unleashed", W, July 1999
@@ -180,7 +180,7 @@
                 <div class="modal form__modal js-modal-form">
                   <div class="modal__box">
                     <div class="notice">
-                      <h2 class="notice__title">Направить запрос</h2>
+                      <h4 class="notice__title">Направить запрос</h4>
 
                       <hr>
 
@@ -244,6 +244,7 @@
   </div>
 
   <script src="./js/main.js"></script>
+  <script src="./js/page-zoom.js"></script>
 </body>
 
 </html>
