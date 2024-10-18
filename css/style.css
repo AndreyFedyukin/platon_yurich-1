@@ -44,7 +44,10 @@ video {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   padding: 0;
   margin: 0;
 }
@@ -639,8 +642,12 @@ details summary::-webkit-details-marker {
   hyphens: auto;
 }
 
-.about__picture {
+.about__picture-wrap {
   width: 47%;
+}
+
+.about__picture {
+  width: 100%;
 }
 
 /* section exhibitions ************************* */
