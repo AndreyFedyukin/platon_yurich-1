@@ -794,8 +794,12 @@ details summary::-webkit-details-marker {
   width: 100%;
 }
 
-.film__picture {
+.film__picture-wrap {
   width: 47%;
+}
+
+.film__picture {
+  width: 100%;
 }
 
 /* section mag ************************* */
