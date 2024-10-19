@@ -648,7 +648,7 @@ details summary::-webkit-details-marker {
 
 .about__slideshow {
   width: 100%;
-  height: 100%;
+  height: 370px;
   position: relative;
   overflow: hidden;
 }
@@ -668,7 +668,7 @@ details summary::-webkit-details-marker {
 
 .slideshow__item:nth-child(1),
 .slideshow__item:nth-child(1) img {
-  animation-delay: 0;
+  animation-delay: 0s;
 }
 
 .slideshow__item:nth-child(2),
