@@ -711,11 +711,11 @@ details summary::-webkit-details-marker {
   }
 }
 
-@keyframes zoom {
+/* @keyframes zoom {
   50% {
     transform: scale(1.3);
   }
-}
+} */
 
 /* section exhibitions ************************* */
 .exhibitions__wrapper {
