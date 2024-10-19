@@ -47,10 +47,6 @@
     /* 50-10px */
   }
 
-  .about__slideshow {
-    height: 300px;
-  }
-
   .exhibitions__title {
     margin-bottom: clamp(0.63rem, calc(-6.87rem + 15.63vw), 3.13rem);
     /* 50-10px */
@@ -347,10 +343,6 @@
     margin-bottom: 10px;
   }
 
-  .about__slideshow {
-    height: 220px;
-  }
-
   .exhibitions__wrapper {
     align-items: center;
   }
@@ -487,10 +479,6 @@
 
   .about__picture-wrap {
     width: 100%;
-  }
-
-  .about__slideshow {
-    height: 330px;
   }
 
   /* exhibitions ************************* */
