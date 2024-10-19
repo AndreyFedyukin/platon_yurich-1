@@ -1608,7 +1608,7 @@ hr {
   font-weight: 700;
   line-height: 160%;
   letter-spacing: 2px;
-  margin-bottom: 5px;
+  margin: 10px auto 5px;
 }
 
 .contacts__mail {
@@ -1620,11 +1620,12 @@ hr {
   font-style: italic;
   letter-spacing: 3px;
   text-decoration: underline;
-  margin-bottom: 50px;
+  margin-bottom: 7svh;
 }
 
 .contacts__picture {
   max-width: 500px;
+  margin-bottom: 10px;
 }
 
 .contacts__social {

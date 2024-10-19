@@ -15,8 +15,7 @@
   .page__wrapper,
   .page__back,
   .vases-mag,
-  .news,
-  .contacts__mail {
+  .news {
     margin-bottom: clamp(1.88rem, calc(0.68rem + 3.82vw), 3.13rem);
     /* 50-30px */
   }
@@ -391,7 +390,7 @@
 
   /* section contacts ************************* */
   .contacts {
-    height: calc(100svh - 160px);
+    height: calc(100svh - 140px);
   }
 
   .contacts__subtitle {
