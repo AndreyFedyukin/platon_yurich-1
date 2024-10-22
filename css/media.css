@@ -103,8 +103,6 @@
     /* 20-10px */
   }
 
-  /* section print ************************* */
-
   /* section sculpture ************************* */
   .sculpture__hr {
     margin-bottom: 50px;
@@ -347,7 +345,6 @@
     align-items: center;
   }
 
-
   /* case ************************* */
 
   /* section vases ************************* */
@@ -375,14 +372,7 @@
     margin: 0 auto;
   }
 
-  /* section paintings ************************* */
-
-  /* section print ************************* */
-
-  /* section sculpture ************************* */
-
   /* section news ************************* */
-
   .news__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

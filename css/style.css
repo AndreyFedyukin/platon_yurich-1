@@ -1741,6 +1741,10 @@ hr {
   letter-spacing: 3px;
 }
 
+.surprise {
+  cursor: default;
+}
+
 .footer__social {
   width: 100%;
   max-width: 330px;
