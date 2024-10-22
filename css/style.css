@@ -37,7 +37,6 @@ video {
   width: 100%;
   max-width: 100svw;
   height: auto;
-  /* max-height: 100svh; */
   object-fit: cover;
   vertical-align: middle;
 }
@@ -1362,7 +1361,6 @@ hr {
   max-width: 70%;
   grid-column-gap: 35%;
   margin: 0 auto;
-  /* margin-bottom: 50px; */
 }
 
 .sculpture__box {
