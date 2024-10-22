@@ -203,7 +203,7 @@ body {
 
 .header__logo {
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
@@ -267,7 +267,7 @@ body {
   width: min-content;
   display: block;
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
@@ -309,7 +309,7 @@ body {
   width: min-content;
   display: block;
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
@@ -488,7 +488,7 @@ details summary::-webkit-details-marker {
 
 .title {
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-size: 32px;
   font-weight: 600;
   line-height: 160%;
@@ -515,7 +515,7 @@ details summary::-webkit-details-marker {
 }
 
 .about-home__quote {
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
@@ -561,7 +561,7 @@ details summary::-webkit-details-marker {
 
 .about-home__text {
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -633,7 +633,7 @@ details summary::-webkit-details-marker {
 
 .about__text {
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -721,7 +721,7 @@ details summary::-webkit-details-marker {
 
 .press__text {
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -760,7 +760,7 @@ details summary::-webkit-details-marker {
 
 .film__text {
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -829,7 +829,7 @@ details summary::-webkit-details-marker {
 
 .mag__text {
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -996,7 +996,7 @@ hr {
 }
 
 .reference {
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
@@ -1010,7 +1010,6 @@ hr {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  /* padding-top: 50px; */
   margin: 0 auto;
 }
 
@@ -1442,7 +1441,7 @@ hr {
 .vases-mag__text {
   width: 100%;
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;
@@ -1455,7 +1454,7 @@ hr {
 .vases-mag__site {
   width: 100%;
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -1483,7 +1482,7 @@ hr {
 .vases-info__text {
   width: 100%;
   color: var(--color-text);
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -1552,7 +1551,7 @@ hr {
 }
 
 .news__subtitle {
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 700;
   font-size: 26px;
   line-height: 28px;
@@ -1560,7 +1559,7 @@ hr {
 }
 
 .news__date {
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -1568,7 +1567,7 @@ hr {
 }
 
 .news__paragraph {
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -1604,7 +1603,7 @@ hr {
 .contacts__subtitle {
   color: var(--color-black);
   text-transform: uppercase;
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-size: 16px;
   font-weight: 700;
   line-height: 160%;
@@ -1614,7 +1613,7 @@ hr {
 
 .contacts__mail {
   text-transform: uppercase;
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
@@ -1663,7 +1662,7 @@ hr {
 .plug__title {
   color: var(--color-white);
   text-transform: uppercase;
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   /* font-size: 1rem; */
   text-align: center;
   margin-bottom: 100px;
@@ -1672,7 +1671,7 @@ hr {
 .plug__info {
   color: var(--color-white);
   text-transform: uppercase;
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   text-align: center;
 }
 
@@ -1737,7 +1736,7 @@ hr {
 
 .footer__footnote {
   text-transform: uppercase;
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
@@ -1764,7 +1763,7 @@ hr {
 
 .footer__mail {
   text-transform: uppercase;
-  /* font-family: 'Open Sans'; */
+  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
