@@ -1102,7 +1102,8 @@ hr {
 
 .page__box-title {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .page__box-title,
@@ -1116,9 +1117,14 @@ hr {
   font-weight: 600;
 }
 
-.page__box-title,
 .page__date {
   font-style: italic;
+}
+
+.page__par {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .page__description {
